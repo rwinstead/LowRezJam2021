@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class SimpleMove : MonoBehaviour
 {
-	public float moveSpeed = 3f;
+	public float moveSpeed = 3.0f;
+	public float jumpForce= 5.0f;
+
 	Vector3 moveDirection = Vector3.zero;
 	Vector2 position;
 
@@ -18,8 +20,26 @@ public class SimpleMove : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-		moveDirection.x = Input.GetAxis("Horizontal") * moveSpeed;
-		moveDirection.y = Input.GetAxis("Vertical") * moveSpeed;
-		rb.velocity = moveDirection;
-    }
+		float horizontalInput = Input.GetAxisRaw("Horizontal");
+
+		rb.velocity = new Vector2(horizontalInput * moveSpeed,rb.velocity.y);
+
+		if(Input.GetKeyDown(KeyCode.Space) && IsGrounded())
+		{
+			rb.velocity = new Vector2(rb.velocity.x,jumpForce);
+		}
+	}
+
+	private bool IsGrounded()
+	{
+		RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.8f, 1 << 3);
+
+		if(hit.collider != null)
+		{
+			return true;
+		}
+
+		return false;
+	}
+
 }
