@@ -1106,8 +1106,8 @@ TextureImporter:
         y: 324
         width: 42
         height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5145089, y: 0.5450506}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1124,11 +1124,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 483
-        y: 325
+        y: 322
         width: 67
         height: 61
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.4922449, y: 0.5562179}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1186,12 +1186,12 @@ TextureImporter:
       name: Rune_blue-1
       rect:
         serializedVersion: 2
-        x: 395
-        y: 324
+        x: 394
+        y: 322
         width: 36
         height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5453712, y: 0.50934434}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
