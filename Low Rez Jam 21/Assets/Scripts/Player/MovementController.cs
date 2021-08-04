@@ -18,6 +18,7 @@ public class MovementController : MonoBehaviour
 	private Rigidbody2D m_Rigidbody2D;
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
+	public Animator anim;
 
 	[Header("Events")]
 	[Space]
@@ -39,6 +40,12 @@ public class MovementController : MonoBehaviour
 
 		if (OnCrouchEvent == null)
 			OnCrouchEvent = new BoolEvent();
+	}
+
+	private void Update()
+	{
+		anim.SetFloat("Y_Speed", m_Rigidbody2D.velocity.y);
+		anim.SetBool("Grounded", m_Grounded);
 	}
 
 	private void FixedUpdate()

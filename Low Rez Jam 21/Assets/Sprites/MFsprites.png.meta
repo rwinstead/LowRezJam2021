@@ -955,9 +955,9 @@ TextureImporter:
       name: RedMage_casting-4
       rect:
         serializedVersion: 2
-        x: 182
+        x: 179
         y: 475
-        width: 18
+        width: 20
         height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

@@ -14,6 +14,8 @@ public class MovementInput : MonoBehaviour
 
     public bool canMove = true;
 
+    public Animator anim;
+
     private void Start()
     {
         SpellAnimationCallback.spellEnded += EnableMove;
@@ -42,6 +44,16 @@ public class MovementInput : MonoBehaviour
         else
         {
             horizontalMove = 0f;
+        }
+
+
+        if (horizontalMove > 0.01f || horizontalMove < -0.01f)
+        {
+            anim.SetBool("Walking", true);
+        }
+        else
+        {
+            anim.SetBool("Walking", false);
         }
 
     }
