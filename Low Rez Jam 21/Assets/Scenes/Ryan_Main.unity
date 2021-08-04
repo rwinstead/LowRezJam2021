@@ -1041,6 +1041,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4306503415181610245, guid: a9375ee755b8df842b87f96a359801ba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.684
+      objectReference: {fileID: 0}
     - target: {fileID: 4306503415744537798, guid: a9375ee755b8df842b87f96a359801ba, type: 3}
       propertyPath: m_Name
       value: RedMage
@@ -1055,7 +1059,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4306503415744537853, guid: a9375ee755b8df842b87f96a359801ba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.86
+      value: -1.937
       objectReference: {fileID: 0}
     - target: {fileID: 4306503415744537853, guid: a9375ee755b8df842b87f96a359801ba, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1088,6 +1092,14 @@ PrefabInstance:
     - target: {fileID: 4306503415744537853, guid: a9375ee755b8df842b87f96a359801ba, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4306503415744537854, guid: a9375ee755b8df842b87f96a359801ba, type: 3}
+      propertyPath: m_Size.y
+      value: 0.324414
+      objectReference: {fileID: 0}
+    - target: {fileID: 4306503415744537854, guid: a9375ee755b8df842b87f96a359801ba, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.5244131
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9375ee755b8df842b87f96a359801ba, type: 3}
