@@ -8,11 +8,11 @@ public class Spellcasting : MonoBehaviour
     public Transform spellPrefab1;
     public Vector3 offset1;
 
-    // Update is called once per frame
+    public MovementController movementC;
 
     void Update()
     {
-        if (Input.GetKeyDown("q"))
+        if (Input.GetKeyDown("q") && movementC.m_Grounded)
         {
             Instantiate(spellPrefab1, new Vector3(transform.position.x + offset1.x, transform.position.y + offset1.y, transform.position.z + offset1.z), transform.rotation);
         }

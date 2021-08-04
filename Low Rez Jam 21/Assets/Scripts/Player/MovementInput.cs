@@ -12,14 +12,36 @@ public class MovementInput : MonoBehaviour
 
     bool jump = false;
 
+    public bool canMove = true;
+
+    private void Start()
+    {
+        SpellAnimationCallback.spellEnded += EnableMove;
+        SpellAnimationCallback.spellStarted += DisableMove;
+    }
+
+    private void OnDestroy()
+    {
+        SpellAnimationCallback.spellEnded -= EnableMove;
+        SpellAnimationCallback.spellStarted -= DisableMove;
+    }
+
 
     void Update()
     {
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-
-        if (Input.GetButtonDown("Jump"))
+        if (canMove)
         {
-            jump = true;
+            horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+
+            if (Input.GetButtonDown("Jump"))
+            {
+                jump = true;
+            }
+        }
+
+        else
+        {
+            horizontalMove = 0f;
         }
 
     }
@@ -28,6 +50,16 @@ public class MovementInput : MonoBehaviour
     {
         controller.Move(horizontalMove * Time.deltaTime, false, jump);
         jump = false;
+    }
+
+    private void EnableMove()
+    {
+        canMove = true;
+    }
+
+    private void DisableMove()
+    {
+        canMove = false;
     }
 
 }
