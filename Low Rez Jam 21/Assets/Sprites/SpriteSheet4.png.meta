@@ -1,0 +1,768 @@
+fileFormatVersion: 2
+guid: 9f5014784089349b1841e181760a24d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8539501184756488886
+    second: BlueCrystal_4
+  - first:
+      213: 5927635268248077154
+    second: BlueCrystal_3
+  - first:
+      213: 6379144542352994730
+    second: BlueCrystal_2
+  - first:
+      213: -5180807248708655695
+    second: BlueCrystal_1
+  - first:
+      213: 464094835188556300
+    second: BlueCrystal_idle
+  - first:
+      213: -7441119743161253098
+    second: RedCrystal_3
+  - first:
+      213: -5141667860506234895
+    second: RedCrystal_4
+  - first:
+      213: 8849477836390600359
+    second: RedCrystal_2
+  - first:
+      213: -6680846663034390296
+    second: RedCrystal_1
+  - first:
+      213: -6780126918061483178
+    second: Campfire_1
+  - first:
+      213: -498394346924775839
+    second: Campfire_2
+  - first:
+      213: -6405105119743597228
+    second: Campfire_3
+  - first:
+      213: -3202650017877833912
+    second: Campfire_4
+  - first:
+      213: -1353074393789206753
+    second: SpriteSheet4_13
+  - first:
+      213: 6420211759606743615
+    second: SpriteSheet4_14
+  - first:
+      213: 3231598601928218825
+    second: SpriteSheet4_15
+  - first:
+      213: -168740651804483342
+    second: SpriteSheet4_16
+  - first:
+      213: 6009316451885566298
+    second: Pot2
+  - first:
+      213: 5115314150967536250
+    second: Pot1
+  - first:
+      213: -2376016555183750687
+    second: OldWagon
+  - first:
+      213: 1478019000643943374
+    second: PurpleChest_open
+  - first:
+      213: -4205432398812631792
+    second: PurpleChest_closed
+  - first:
+      213: -3282180587399823639
+    second: YellowChest_Open
+  - first:
+      213: 3762672817881618270
+    second: YellowChest_closed
+  - first:
+      213: -7812787428986514812
+    second: OrangeChest_open
+  - first:
+      213: -5587171571570785407
+    second: OrangeChest_closed
+  - first:
+      213: -7741638200542864412
+    second: NpcGuy
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueCrystal_4
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 85
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba10745517628670800000000000000
+      internalID: 8539501184756488886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrystal_3
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 85
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263010aded0334250800000000000000
+      internalID: 5927635268248077154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrystal_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 85
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa172d1c926478850800000000000000
+      internalID: 6379144542352994730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrystal_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 85
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5a3f2a1431a18b0800000000000000
+      internalID: -5180807248708655695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrystal_idle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02e1813bcbc07600800000000000000
+      internalID: 464094835188556300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrystal_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 85
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6134ab1b405dbb890800000000000000
+      internalID: -7441119743161253098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrystal_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 85
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffab75925025a8b0800000000000000
+      internalID: -5141667860506234895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrystal_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 85
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae01c5a439afca70800000000000000
+      internalID: 8849477836390600359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCrystal_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 85
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e83bfa4b5dd843a0800000000000000
+      internalID: -6680846663034390296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_1
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 35
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b91ec9d7628e1a0800000000000000
+      internalID: -6780126918061483178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_2
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 35
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1666c796bf85519f0800000000000000
+      internalID: -498394346924775839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_3
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 35
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455a5ac44de7c17a0800000000000000
+      internalID: -6405105119743597228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 35
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8474e70f6c6ed83d0800000000000000
+      internalID: -3202650017877833912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet4_13
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 11
+        width: 3
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f648bf10ae83de0800000000000000
+      internalID: -1353074393789206753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet4_14
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 25
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f324522649c291950800000000000000
+      internalID: 6420211759606743615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet4_15
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 25
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c894948ec1f8dc20800000000000000
+      internalID: 3231598601928218825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet4_16
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 25
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0a60e654388adf0800000000000000
+      internalID: -168740651804483342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59cc896971656350800000000000000
+      internalID: 6009316451885566298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot1
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 11
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ae2f24e1f3df640800000000000000
+      internalID: 5115314150967536250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OldWagon
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 11
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e143df1881b60fd0800000000000000
+      internalID: -2376016555183750687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleChest_open
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 46
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbf8a0437af28410800000000000000
+      internalID: 1478019000643943374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleChest_closed
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 46
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01daaddb38d43a5c0800000000000000
+      internalID: -4205432398812631792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowChest_Open
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eeb95f352a5372d0800000000000000
+      internalID: -3282180587399823639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowChest_closed
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 35
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e571adb0ef2b73430800000000000000
+      internalID: 3762672817881618270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeChest_open
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 25
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4821f9d2a37639390800000000000000
+      internalID: -7812787428986514812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrangeChest_closed
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 25
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183cc59ce016672b0800000000000000
+      internalID: -5587171571570785407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NpcGuy
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 11
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb5c05d21d209490800000000000000
+      internalID: -7741638200542864412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
