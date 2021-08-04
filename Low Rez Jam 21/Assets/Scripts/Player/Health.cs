@@ -7,7 +7,7 @@ public class Health : MonoBehaviour
     public int maxHealth = 3;
     public int currentHealth;
 
-    public float invincibleTime = 5f;
+    public float invincibleTime = 1f;
     public float lastTimeDamaged = -50f;
 
 
@@ -46,6 +46,7 @@ public class Health : MonoBehaviour
         if(currentHealth < maxHealth)
         {
             currentHealth = (currentHealth + amt);
+            Debug.Log("Yay! Healed " + amt + " Damage. Current Health: " + currentHealth);
         }
         
         
