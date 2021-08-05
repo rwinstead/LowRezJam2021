@@ -32,6 +32,273 @@ TextureImporter:
   - first:
       213: 4240733751577519696
     second: RedMage_castFireball-3
+  - first:
+      213: -6774617729887433216
+    second: Campfire-5
+  - first:
+      213: -5723013319339743675
+    second: Crystal_red_idle
+  - first:
+      213: -7681626132076362570
+    second: Crystal_red_idle-2
+  - first:
+      213: -640248318415777059
+    second: campfire_red
+  - first:
+      213: -777700179609102795
+    second: Campfire_red-5
+  - first:
+      213: -5681610827502687299
+    second: Campfire_red-4
+  - first:
+      213: -7057004920773513579
+    second: campfire_red-3
+  - first:
+      213: 7894208176843726993
+    second: campfire_red-2
+  - first:
+      213: 975530900568525246
+    second: Campfire_blue
+  - first:
+      213: -4697158769635976701
+    second: Campfire_blue-2
+  - first:
+      213: -143594537262789577
+    second: Campfire_blue-3
+  - first:
+      213: 1415165363003847546
+    second: Campfire_blue-4
+  - first:
+      213: 2690465462851842349
+    second: Campfire_blue-5
+  - first:
+      213: 237011564776941466
+    second: RuneIcon_green
+  - first:
+      213: 8704889106630472682
+    second: RuneIcon_red
+  - first:
+      213: -7568397922910753398
+    second: RuneIcon_blue
+  - first:
+      213: 4793669682374713682
+    second: RuneIcon_yellow
+  - first:
+      213: 2812011823090518496
+    second: MFsprites_122
+  - first:
+      213: 550543812939352192
+    second: MFsprites_123
+  - first:
+      213: 7506048419727220994
+    second: MFsprites_124
+  - first:
+      213: -4459097491139485102
+    second: MFsprites_125
+  - first:
+      213: -6107420753110423169
+    second: MFsprites_126
+  - first:
+      213: 7892306834080089083
+    second: MFsprites_127
+  - first:
+      213: -4806480295005959394
+    second: MFsprites_128
+  - first:
+      213: -8305685020768572227
+    second: MFsprites_129
+  - first:
+      213: 351239280654541960
+    second: MFsprites_130
+  - first:
+      213: 7005477474538155432
+    second: TorchFire-4
+  - first:
+      213: 5630039537251885949
+    second: TorchFire-5
+  - first:
+      213: -131635685735012677
+    second: TorchBase_red
+  - first:
+      213: -5846188080474806461
+    second: TorchBase_purple
+  - first:
+      213: -5484521978830688963
+    second: Pot_whole
+  - first:
+      213: -7347402021852947288
+    second: Pot_breaking
+  - first:
+      213: -3413308161082313417
+    second: Pot_broken
+  - first:
+      213: 7814626199849950392
+    second: Pot_purple-whole
+  - first:
+      213: 853655117993057611
+    second: Pot_purple-breaking
+  - first:
+      213: 3623165110920029064
+    second: Pot_purple-broken
+  - first:
+      213: -6659357336063560875
+    second: Pot_red-whole
+  - first:
+      213: 974072362521582924
+    second: Pot_red-breaking
+  - first:
+      213: 9135469299999716991
+    second: Pot_red-broken
+  - first:
+      213: -1256743617525432032
+    second: Monster_purple_right
+  - first:
+      213: 2639803086347603800
+    second: Monster_purple_walking
+  - first:
+      213: 2809089530814504409
+    second: Monster_purple_walking-2
+  - first:
+      213: -465047735825691455
+    second: MFsprites_145
+  - first:
+      213: -1107902814529144602
+    second: Monser_green-left
+  - first:
+      213: 4150744573252959403
+    second: Monster_green_right
+  - first:
+      213: -7708684541182494477
+    second: Monster_green_walking
+  - first:
+      213: 4477723290775634820
+    second: Monster_green_walking-2
+  - first:
+      213: -2844840330727576616
+    second: MFsprites_150
+  - first:
+      213: 6750979626123277325
+    second: MFsprites_151
+  - first:
+      213: -3821555390564224506
+    second: MFsprites_152
+  - first:
+      213: -7967523469760086702
+    second: MFsprites_153
+  - first:
+      213: 8312391185220617839
+    second: MFsprites_154
+  - first:
+      213: 9126611813938138362
+    second: MFsprites_155
+  - first:
+      213: 5811001697091302640
+    second: MFsprites_156
+  - first:
+      213: 6130495664417227818
+    second: MFsprites_157
+  - first:
+      213: 8661959650129286107
+    second: MFsprites_158
+  - first:
+      213: 3492885571532222083
+    second: MFsprites_159
+  - first:
+      213: 4600250494284916115
+    second: MFsprites_160
+  - first:
+      213: -8838840192986078215
+    second: MFsprites_161
+  - first:
+      213: 2214111776825283974
+    second: MFsprites_162
+  - first:
+      213: 7566202227993637013
+    second: MFsprites_163
+  - first:
+      213: -6481143564020674060
+    second: MFsprites_164
+  - first:
+      213: 5150006002842922046
+    second: MFsprites_165
+  - first:
+      213: 5620855478183792458
+    second: MFsprites_166
+  - first:
+      213: -9168347303581123998
+    second: MFsprites_167
+  - first:
+      213: -8043410831117798174
+    second: MFsprites_168
+  - first:
+      213: -3833429430778481360
+    second: MFsprites_169
+  - first:
+      213: 255170919947213095
+    second: MFsprites_170
+  - first:
+      213: 3608978003583983979
+    second: MFsprites_171
+  - first:
+      213: 1060874937009876715
+    second: MFsprites_172
+  - first:
+      213: -5692741749953350501
+    second: MFsprites_173
+  - first:
+      213: 847762618807899068
+    second: MFsprites_174
+  - first:
+      213: -5241619714554191557
+    second: MFsprites_175
+  - first:
+      213: -2743141007769991257
+    second: MFsprites_176
+  - first:
+      213: -3024021689281422682
+    second: MFsprites_177
+  - first:
+      213: 4884835106777318164
+    second: MFsprites_178
+  - first:
+      213: 4296225068246586123
+    second: MFsprites_179
+  - first:
+      213: 8220534504617538065
+    second: MFsprites_180
+  - first:
+      213: -4704187674893951949
+    second: MFsprites_181
+  - first:
+      213: -4795892149365411382
+    second: MFsprites_182
+  - first:
+      213: -3975401093430163967
+    second: MFsprites_183
+  - first:
+      213: 1809289346771076494
+    second: MFsprites_184
+  - first:
+      213: -8495491412344503427
+    second: MFsprites_185
+  - first:
+      213: 8781531369048889205
+    second: MFsprites_186
+  - first:
+      213: 3404943388430387984
+    second: MFsprites_187
+  - first:
+      213: 3937521247874901090
+    second: MFsprites_188
+  - first:
+      213: -137984389337141628
+    second: MFsprites_189
+  - first:
+      213: -3294783330179509812
+    second: MFsprites_190
+  - first:
+      213: -8788579705557067436
+    second: MFsprites_191
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -137,9 +404,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 41
-        y: 648
+        y: 649
         width: 12
-        height: 27
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,9 +425,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 55
-        y: 648
+        y: 649
         width: 12
-        height: 27
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,9 +446,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 68
-        y: 648
+        y: 649
         width: 12
-        height: 27
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,9 +467,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 82
-        y: 648
+        y: 649
         width: 12
-        height: 27
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,8 +613,8 @@ TextureImporter:
       name: Banner
       rect:
         serializedVersion: 2
-        x: 22
-        y: 568
+        x: 302
+        y: 621
         width: 24
         height: 27
       alignment: 0
@@ -367,8 +634,8 @@ TextureImporter:
       name: Helm_gold
       rect:
         serializedVersion: 2
-        x: 55
-        y: 571
+        x: 335
+        y: 624
         width: 14
         height: 18
       alignment: 0
@@ -388,8 +655,8 @@ TextureImporter:
       name: Bat_idle
       rect:
         serializedVersion: 2
-        x: 305
-        y: 539
+        x: 306
+        y: 516
         width: 10
         height: 6
       alignment: 0
@@ -409,8 +676,8 @@ TextureImporter:
       name: Bat_flying-5
       rect:
         serializedVersion: 2
-        x: 315
-        y: 535
+        x: 316
+        y: 512
         width: 10
         height: 5
       alignment: 0
@@ -430,8 +697,8 @@ TextureImporter:
       name: ForestBoss
       rect:
         serializedVersion: 2
-        x: 499
-        y: 502
+        x: 385
+        y: 604
         width: 55
         height: 50
       alignment: 0
@@ -451,8 +718,8 @@ TextureImporter:
       name: Bat_flying-4
       rect:
         serializedVersion: 2
-        x: 305
-        y: 530
+        x: 306
+        y: 507
         width: 10
         height: 5
       alignment: 0
@@ -473,9 +740,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 326
-        y: 535
-        width: 8
-        height: 4
+        y: 512
+        width: 10
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,7 +761,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 530
+        y: 536
         width: 7
         height: 5
       alignment: 0
@@ -514,8 +781,8 @@ TextureImporter:
       name: Bat_flying-1
       rect:
         serializedVersion: 2
-        x: 268
-        y: 530
+        x: 269
+        y: 507
         width: 10
         height: 5
       alignment: 0
@@ -535,8 +802,8 @@ TextureImporter:
       name: Bat_flying-2
       rect:
         serializedVersion: 2
-        x: 278
-        y: 530
+        x: 279
+        y: 507
         width: 10
         height: 5
       alignment: 0
@@ -556,8 +823,8 @@ TextureImporter:
       name: Bat_flying-3
       rect:
         serializedVersion: 2
-        x: 292
-        y: 530
+        x: 293
+        y: 506
         width: 10
         height: 5
       alignment: 0
@@ -1879,8 +2146,8 @@ TextureImporter:
       name: Helm_white
       rect:
         serializedVersion: 2
-        x: 75
-        y: 570
+        x: 355
+        y: 624
         width: 13
         height: 19
       alignment: 0
@@ -1901,7 +2168,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 24
-        y: 530
+        y: 536
         width: 7
         height: 5
       alignment: 0
@@ -1922,7 +2189,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 530
+        y: 536
         width: 7
         height: 5
       alignment: 0
@@ -2002,11 +2269,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pot1
+      name: Pot_whole
       rect:
         serializedVersion: 2
-        x: 231
-        y: 615
+        x: 224
+        y: 604
         width: 6
         height: 7
       alignment: 0
@@ -2023,11 +2290,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pot2
+      name: Pot_breaking
       rect:
         serializedVersion: 2
-        x: 239
-        y: 615
+        x: 232
+        y: 604
         width: 6
         height: 7
       alignment: 0
@@ -2065,7 +2332,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TorchFire-1
+      name: TorchFire
       rect:
         serializedVersion: 2
         x: 254
@@ -2333,6 +2600,1833 @@ TextureImporter:
       bones: []
       spriteID: 7e2bb5e080dd29c50800000000000000
       internalID: 6670637024759493351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire-5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 649
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e0ff07119bbf1a0800000000000000
+      internalID: -6774617729887433216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_red_idle
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 689
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546ece735b5c390b0800000000000000
+      internalID: -5723013319339743675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_red_idle-2
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 689
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b40b3c5bb1656590800000000000000
+      internalID: -7681626132076362570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: campfire_red
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 617
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd259cceb816d17f0800000000000000
+      internalID: -640248318415777059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_red-5
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 617
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53654ac9ecd0535f0800000000000000
+      internalID: -777700179609102795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_red-4
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 617
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb60ba0e0dd621b0800000000000000
+      internalID: -5681610827502687299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: campfire_red-3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 617
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e6c170a6b701e90800000000000000
+      internalID: -7057004920773513579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: campfire_red-2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 617
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19021c3f28cdd8d60800000000000000
+      internalID: 7894208176843726993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_blue
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 578
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9cdcb7f28c98d00800000000000000
+      internalID: 975530900568525246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_blue-2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 578
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a9c325cf650deb0800000000000000
+      internalID: -4697158769635976701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_blue-3
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 578
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cc3c67789d10ef0800000000000000
+      internalID: -143594537262789577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_blue-4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 578
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73f748566da3a310800000000000000
+      internalID: 1415165363003847546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_blue-5
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 578
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21bdb17514765520800000000000000
+      internalID: 2690465462851842349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIcon_green
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 542
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97603e23c80a4300800000000000000
+      internalID: 237011564776941466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIcon_red
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 542
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae370e1a58afdc870800000000000000
+      internalID: 8704889106630472682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIcon_blue
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 542
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8da91e2036a7f690800000000000000
+      internalID: -7568397922910753398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIcon_yellow
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 542
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251218c9d29868240800000000000000
+      internalID: 4793669682374713682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_122
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 542
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9428bbad5460720800000000000000
+      internalID: 2812011823090518496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_123
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 548
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0880a835eace3a700800000000000000
+      internalID: 550543812939352192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_124
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 548
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20129bcd447da2860800000000000000
+      internalID: 7506048419727220994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_125
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 548
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252abc5057a1e12c0800000000000000
+      internalID: -4459097491139485102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_126
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 548
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79210dfe251e3ba0800000000000000
+      internalID: -6107420753110423169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_127
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 548
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf34bb7104b178d60800000000000000
+      internalID: 7892306834080089083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_128
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 530
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b414433a3fb4db0800000000000000
+      internalID: -4806480295005959394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_129
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 530
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc6ec0aa774cbc80800000000000000
+      internalID: -8305685020768572227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_130
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 530
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884e39ac34adfd400800000000000000
+      internalID: 351239280654541960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TorchFire-4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 629
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ade8df75a4783160800000000000000
+      internalID: 7005477474538155432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TorchFire-5
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 629
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73ad41412be12e40800000000000000
+      internalID: 5630039537251885949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TorchBase_red
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 593
+        width: 3
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6efff8a065c2ef0800000000000000
+      internalID: -131635685735012677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TorchBase_purple
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 637
+        width: 3
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3472d2d4aea2edea0800000000000000
+      internalID: -5846188080474806461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_broken
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 604
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7353fbddf4e71a0d0800000000000000
+      internalID: -3413308161082313417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_purple-whole
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 593
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc54860021237c60800000000000000
+      internalID: 7814626199849950392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_purple-breaking
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 593
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d9ba49ecac8db00800000000000000
+      internalID: 853655117993057611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_purple-broken
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 593
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8832af6d871184230800000000000000
+      internalID: 3623165110920029064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_red-whole
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 582
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5533a8f19c53593a0800000000000000
+      internalID: -6659357336063560875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_red-breaking
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 582
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ddf9127a9948d00800000000000000
+      internalID: 974072362521582924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_red-broken
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 582
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7638f23de4b7ce70800000000000000
+      internalID: 9135469299999716991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_purple_right
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 462
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02148af96562f8ee0800000000000000
+      internalID: -1256743617525432032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_purple_walking
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 462
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f8ab6bbe672a420800000000000000
+      internalID: 2639803086347603800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_purple_walking-2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 462
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd977a8b04ebf620800000000000000
+      internalID: 2809089530814504409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_145
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 462
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc82865c81db89f0800000000000000
+      internalID: -465047735825691455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monser_green-left
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 448
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8b5569240ff90f0800000000000000
+      internalID: -1107902814529144602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_green_right
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 448
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac7f12a2386a9930800000000000000
+      internalID: 4150744573252959403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_green_walking
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 448
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8b54d8040450590800000000000000
+      internalID: -7708684541182494477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_green_walking-2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 448
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483cc25eb91142e30800000000000000
+      internalID: 4477723290775634820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_150
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 515
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db2744bac81588d0800000000000000
+      internalID: -2844840330727576616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_151
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 515
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d043af4a33c40bd50800000000000000
+      internalID: 6750979626123277325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_152
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 434
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602b0f7ae9b17fac0800000000000000
+      internalID: -3821555390564224506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_153
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 434
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25dbc553e9bad6190800000000000000
+      internalID: -7967523469760086702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_154
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 434
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66c925fdbb8b5370800000000000000
+      internalID: 8312391185220617839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_155
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 434
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc8aa4071d38ae70800000000000000
+      internalID: 9126611813938138362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_156
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 532
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4b1586143d4a050800000000000000
+      internalID: 5811001697091302640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_157
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 532
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2449a67355e31550800000000000000
+      internalID: 6130495664417227818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_158
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 532
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd319b4a866753870800000000000000
+      internalID: 8661959650129286107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_159
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 532
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ee344dbe8397030800000000000000
+      internalID: 3492885571532222083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_160
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 532
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395eaad837f57df30800000000000000
+      internalID: 4600250494284916115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_161
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 515
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3ae96bca1265580800000000000000
+      internalID: -8838840192986078215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_162
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 526
+        width: 6
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6851eae1eea1abe10800000000000000
+      internalID: 2214111776825283974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_163
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 526
+        width: 6
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5907452c6dc800960800000000000000
+      internalID: 7566202227993637013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_164
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 526
+        width: 6
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f11d30644a5e06a0800000000000000
+      internalID: -6481143564020674060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_165
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 493
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ce4967c2f787740800000000000000
+      internalID: 5150006002842922046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_166
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 493
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f04fed64a410e40800000000000000
+      internalID: 5620855478183792458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_167
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 493
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26af2a014bc73c080800000000000000
+      internalID: -9168347303581123998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_168
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 493
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4b1b40770106090800000000000000
+      internalID: -8043410831117798174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_169
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 493
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035bbea3e3ceccac0800000000000000
+      internalID: -3833429430778481360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_170
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 476
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7299678899c8a8300800000000000000
+      internalID: 255170919947213095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_171
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 487
+        width: 6
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6162d18f5aa51230800000000000000
+      internalID: 3608978003583983979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_172
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 487
+        width: 6
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beea69b622cf8be00800000000000000
+      internalID: 1060874937009876715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_173
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 487
+        width: 6
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94bef33a815ff0b0800000000000000
+      internalID: -5692741749953350501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_174
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 484
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb356e33c9bd3cb00800000000000000
+      internalID: 847762618807899068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_175
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 484
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31205214a60247b0800000000000000
+      internalID: -5241619714554191557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_176
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 483
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7001789c76ee9d0800000000000000
+      internalID: -2743141007769991257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_177
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 484
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aadd49ab448806d0800000000000000
+      internalID: -3024021689281422682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_178
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 493
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413c1dd06ab6ac340800000000000000
+      internalID: 4884835106777318164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_179
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 489
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0357fbefe14f9b30800000000000000
+      internalID: 4296225068246586123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_180
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 489
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112f193e394351270800000000000000
+      internalID: 8220534504617538065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_181
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 492
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33cdc29cb3e57beb0800000000000000
+      internalID: -4704187674893951949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_182
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 492
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac17df7ff71917db0800000000000000
+      internalID: -4795892149365411382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_183
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 530
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1064562a4c984d8c0800000000000000
+      internalID: -3975401093430163967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_184
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 530
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85403a2313eb1910800000000000000
+      internalID: 1809289346771076494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_185
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 529
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7303de4293f91a80800000000000000
+      internalID: -8495491412344503427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_186
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 530
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577db1ce0444ed970800000000000000
+      internalID: 8781531369048889205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_187
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 535
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b45bbb8f9c04f20800000000000000
+      internalID: 3404943388430387984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_188
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 535
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264e22b86b2e4a630800000000000000
+      internalID: 3937521247874901090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_189
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 538
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ea201dde7c51ef0800000000000000
+      internalID: -137984389337141628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_190
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 538
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc195c884049642d0800000000000000
+      internalID: -3294783330179509812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MFsprites_191
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 539
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459501a5251b80680800000000000000
+      internalID: -8788579705557067436
       vertices: []
       indices: 
       edges: []
