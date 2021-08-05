@@ -230,13 +230,14 @@ GameObject:
   - component: {fileID: 934414526}
   - component: {fileID: 934414529}
   - component: {fileID: 934414530}
+  - component: {fileID: 934414531}
   m_Layer: 0
   m_Name: Flying Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &934414526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -346,6 +347,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!50 &934414531
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934414525}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 0
 --- !u!1 &1037986298
 GameObject:
   m_ObjectHideFlags: 0
@@ -907,7 +929,7 @@ MonoBehaviour:
   m_RefResolutionX: 64
   m_RefResolutionY: 64
   m_UpscaleRT: 0
-  m_PixelSnapping: 1
+  m_PixelSnapping: 0
   m_CropFrameX: 1
   m_CropFrameY: 1
   m_StretchFill: 0
