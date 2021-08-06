@@ -34,7 +34,7 @@ TextureImporter:
     second: RedMage_castFireball-3
   - first:
       213: -6774617729887433216
-    second: Campfire-5
+    second: Campfire-normal-1-5
   - first:
       213: -5723013319339743675
     second: Crystal_red_idle
@@ -73,43 +73,43 @@ TextureImporter:
     second: Campfire_blue-5
   - first:
       213: 237011564776941466
-    second: RuneIcon_green
+    second: Heart_grey_full
   - first:
       213: 8704889106630472682
-    second: RuneIcon_red
+    second: Heart_grey_half
   - first:
       213: -7568397922910753398
-    second: RuneIcon_blue
+    second: Heart_grey_empty
   - first:
       213: 4793669682374713682
-    second: RuneIcon_yellow
+    second: Heart_black_full
   - first:
       213: 2812011823090518496
-    second: MFsprites_122
+    second: Heart_black_half
   - first:
       213: 550543812939352192
-    second: MFsprites_123
+    second: Heart_black_empty
   - first:
       213: 7506048419727220994
-    second: MFsprites_124
+    second: RuneIcon_Green_whiteTrim
   - first:
       213: -4459097491139485102
-    second: MFsprites_125
+    second: RuneIcon_Red_whiteTrim
   - first:
       213: -6107420753110423169
-    second: MFsprites_126
+    second: RuneIcon_Blue_whiteTrim
   - first:
       213: 7892306834080089083
-    second: MFsprites_127
+    second: RuneIcon_Yellow_whiteTrim
   - first:
       213: -4806480295005959394
-    second: MFsprites_128
+    second: RuneIcon_Green_greyTrim
   - first:
       213: -8305685020768572227
-    second: MFsprites_129
+    second: RuneIcon_Red_greyTrim
   - first:
       213: 351239280654541960
-    second: MFsprites_130
+    second: RuneIcon_Blue_greyTrim
   - first:
       213: 7005477474538155432
     second: TorchFire-4
@@ -151,154 +151,355 @@ TextureImporter:
     second: Pot_red-broken
   - first:
       213: -1256743617525432032
-    second: Monster_purple_right
+    second: Walker_purple_right
   - first:
       213: 2639803086347603800
-    second: Monster_purple_walking
+    second: Walker_purple_walking
   - first:
       213: 2809089530814504409
-    second: Monster_purple_walking-2
+    second: Walker_purple_walking-2
   - first:
       213: -465047735825691455
-    second: MFsprites_145
+    second: Spider_green_spit4
   - first:
       213: -1107902814529144602
-    second: Monser_green-left
+    second: Spider_green_spit5
   - first:
       213: 4150744573252959403
-    second: Monster_green_right
+    second: Walker_green_right
   - first:
       213: -7708684541182494477
-    second: Monster_green_walking
+    second: Walker_green_walking
   - first:
       213: 4477723290775634820
-    second: Monster_green_walking-2
+    second: Walker_green_walking-2
   - first:
       213: -2844840330727576616
-    second: MFsprites_150
+    second: Spider_purple_1
   - first:
       213: 6750979626123277325
-    second: MFsprites_151
+    second: Spider_purple_2
   - first:
       213: -3821555390564224506
-    second: MFsprites_152
+    second: Spider_purple_3
   - first:
       213: -7967523469760086702
-    second: MFsprites_153
+    second: Spider_purple_4
   - first:
       213: 8312391185220617839
-    second: MFsprites_154
+    second: Spider_purple_attacking
   - first:
       213: 9126611813938138362
-    second: MFsprites_155
+    second: Spider_purple_spit1
   - first:
       213: 5811001697091302640
-    second: MFsprites_156
+    second: Spider_purple_spit2
   - first:
       213: 6130495664417227818
-    second: MFsprites_157
+    second: Spider_green_1
   - first:
       213: 8661959650129286107
-    second: MFsprites_158
+    second: Spider_green_2
   - first:
       213: 3492885571532222083
-    second: MFsprites_159
+    second: Spider_green_3
   - first:
       213: 4600250494284916115
-    second: MFsprites_160
+    second: Spider_green_4
   - first:
       213: -8838840192986078215
-    second: MFsprites_161
+    second: ArmoredBoss_walking1
   - first:
       213: 2214111776825283974
-    second: MFsprites_162
+    second: ArmoredBoss_walking2
   - first:
       213: 7566202227993637013
-    second: MFsprites_163
+    second: ArmoredBoss_attack1
   - first:
       213: -6481143564020674060
-    second: MFsprites_164
+    second: ArmoredBoss_attack2
   - first:
       213: 5150006002842922046
-    second: MFsprites_165
+    second: ArmoredBoss_attack3
   - first:
       213: 5620855478183792458
-    second: MFsprites_166
+    second: ArmoredBoss_range1
   - first:
       213: -9168347303581123998
-    second: MFsprites_167
+    second: ArmoredBoss_range2
   - first:
       213: -8043410831117798174
-    second: MFsprites_168
+    second: ArmoredBoss_range3
   - first:
       213: -3833429430778481360
-    second: MFsprites_169
+    second: ArmoredBoss_range4
   - first:
       213: 255170919947213095
-    second: MFsprites_170
+    second: ArmoredBoss_range5
   - first:
       213: 3608978003583983979
-    second: MFsprites_171
+    second: Ladder2
   - first:
       213: 1060874937009876715
-    second: MFsprites_172
+    second: Ladder3
   - first:
       213: -5692741749953350501
-    second: MFsprites_173
+    second: Rock_small_1
   - first:
       213: 847762618807899068
-    second: MFsprites_174
+    second: Spider_purple_spit3
   - first:
       213: -5241619714554191557
-    second: MFsprites_175
+    second: Spider_purple_spit4
   - first:
       213: -2743141007769991257
-    second: MFsprites_176
+    second: Spider_purple_spit5
   - first:
       213: -3024021689281422682
-    second: MFsprites_177
+    second: Rock_small_2
   - first:
       213: 4884835106777318164
-    second: MFsprites_178
+    second: Rock_medium_1
   - first:
       213: 4296225068246586123
-    second: MFsprites_179
+    second: Rock_medium_2
   - first:
       213: 8220534504617538065
-    second: MFsprites_180
+    second: Rock_large_1
   - first:
       213: -4704187674893951949
-    second: MFsprites_181
+    second: Rock_large_2
   - first:
       213: -4795892149365411382
-    second: MFsprites_182
+    second: Rock_large_3
   - first:
       213: -3975401093430163967
-    second: MFsprites_183
+    second: Arch
   - first:
       213: 1809289346771076494
-    second: MFsprites_184
+    second: Arch_Ruins_1
   - first:
       213: -8495491412344503427
-    second: MFsprites_185
+    second: Arch_Ruins_2
   - first:
       213: 8781531369048889205
-    second: MFsprites_186
+    second: Arch_ruins_3
   - first:
       213: 3404943388430387984
-    second: MFsprites_187
+    second: Arch_Ruins_4
   - first:
       213: 3937521247874901090
-    second: MFsprites_188
+    second: Light_empty_1
   - first:
       213: -137984389337141628
-    second: MFsprites_189
+    second: Light_empty_2
   - first:
       213: -3294783330179509812
-    second: MFsprites_190
+    second: Light_Lit_1
   - first:
       213: -8788579705557067436
-    second: MFsprites_191
+    second: Light_lit_2
+  - first:
+      213: 5129372771774002423
+    second: Platform_White
+  - first:
+      213: -8693079645690697556
+    second: Box1
+  - first:
+      213: -5748344466368035387
+    second: GroundCover_Short_purple
+  - first:
+      213: -171280716839127365
+    second: Torch_Short_purple
+  - first:
+      213: 1727042388448325955
+    second: Torch_short
+  - first:
+      213: 682215836317034058
+    second: Torch_short_red
+  - first:
+      213: -6647822391118357120
+    second: Campfire-normal-1-2
+  - first:
+      213: 1508604075496783515
+    second: Campfire-normal-1-3
+  - first:
+      213: -3998626734227115921
+    second: Campfire-normal-1-4
+  - first:
+      213: -4551236163162479073
+    second: Campfire_purple1
+  - first:
+      213: -4437312005728576111
+    second: Campfire_purple2
+  - first:
+      213: 2634371339796283105
+    second: Campfire_purple3
+  - first:
+      213: 5994268678662823950
+    second: Campfire_purple4
+  - first:
+      213: 6972262388848413177
+    second: Campfire_purple5
+  - first:
+      213: -399388503256442299
+    second: Terrain_base_vines
+  - first:
+      213: -8584372519357721446
+    second: Helm_purple
+  - first:
+      213: -4019533274943652211
+    second: Banner_red_helm
+  - first:
+      213: 2786321030301826187
+    second: Banner_blue
+  - first:
+      213: -6792715501047181696
+    second: Banner_blue_helm
+  - first:
+      213: 1039111080704290917
+    second: Banner_green
+  - first:
+      213: 1504577062049241683
+    second: Banner_green_helm
+  - first:
+      213: -3323495240146968084
+    second: RuneIcon_Yellow_greyTrim
+  - first:
+      213: 6310814817588170245
+    second: DarkForest_Text
+  - first:
+      213: 6660764706549801480
+    second: Bat_blue_anim1
+  - first:
+      213: 5724191803123994888
+    second: Bat_blue_anim2
+  - first:
+      213: -6724281291894187174
+    second: Bat_blue_anim3
+  - first:
+      213: -6070687081650826659
+    second: Bat_blue_anim4
+  - first:
+      213: -6351649363681226399
+    second: Bat_blue_anim5
+  - first:
+      213: 8230639633350920134
+    second: Bat_blue_anim6
+  - first:
+      213: 4453087816485953505
+    second: Bat_blue_hanging
+  - first:
+      213: -1507888015164828202
+    second: Bat_red_anim1
+  - first:
+      213: -6858057878851530971
+    second: Bat_red_anim2
+  - first:
+      213: 3465275599320489116
+    second: Bat_red_anim3
+  - first:
+      213: 4169264332548230382
+    second: Bat_red_anim4
+  - first:
+      213: -458483822215236795
+    second: Bat_red_anim5
+  - first:
+      213: -2565196399545943791
+    second: Bat_red_anim6
+  - first:
+      213: -7098719728541057786
+    second: Bat_red_hanging
+  - first:
+      213: -9102976932899403965
+    second: Bat_black_anim1
+  - first:
+      213: -2749655530938440231
+    second: Bat_black_anim2
+  - first:
+      213: -2887916323774957807
+    second: Bat_black_anim3
+  - first:
+      213: 9068606505989820529
+    second: Bat_black_anim4
+  - first:
+      213: 2534913742818983916
+    second: Bat_black_anim5
+  - first:
+      213: -2234768699825868747
+    second: Bat_black_anim6
+  - first:
+      213: -2150761746670846436
+    second: Bat_black_hanging
+  - first:
+      213: 2362818789789482850
+    second: Walker_yellow_right
+  - first:
+      213: 8643108464126733635
+    second: Walker_yellow_walking
+  - first:
+      213: 588168170049567375
+    second: Walker_yellow_walking2
+  - first:
+      213: 4570904530602192849
+    second: Spider_green_attacking
+  - first:
+      213: 6107969358045243721
+    second: Spider_green_spit1
+  - first:
+      213: -6594800011901940117
+    second: Spider_green_spit2
+  - first:
+      213: -2031084686313979947
+    second: Spider_green_spit3
+  - first:
+      213: -2355849549480453305
+    second: Plant_Bell_1
+  - first:
+      213: -9167733720352222857
+    second: Plant_bell_2
+  - first:
+      213: 8981863150617972608
+    second: Plant_star_large
+  - first:
+      213: -1054751676310381331
+    second: Plant_star_small
+  - first:
+      213: 1652416523738527071
+    second: Plant_shrub_large_1
+  - first:
+      213: 7033636878589232284
+    second: Plant_shrub_large_2
+  - first:
+      213: -3328122410716638330
+    second: Plant_shrub_medium_1
+  - first:
+      213: -6590830877053166120
+    second: Plant_shrub_medium_2
+  - first:
+      213: 4327367141162432488
+    second: Plant_flowers_1
+  - first:
+      213: -3747658936367465363
+    second: Plant_shrub_small_1
+  - first:
+      213: -5916755624336423468
+    second: Plant_shrub_small_2
+  - first:
+      213: 4426352806866515971
+    second: Plant_shrub_small_3
+  - first:
+      213: 1397839260770083033
+    second: Knight_Idle
+  - first:
+      213: 3601226940378808580
+    second: Knight_walking_1
+  - first:
+      213: 2021178099112741879
+    second: Knight_walking_2
+  - first:
+      213: 2892588467247674516
+    second: Knight_walking_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -400,11 +601,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Campfire-1
+      name: Campfire-normal-1-1
       rect:
         serializedVersion: 2
-        x: 41
-        y: 649
+        x: 337
+        y: 951
         width: 12
         height: 32
       alignment: 0
@@ -421,11 +622,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Campfire-2
+      name: Campfire-normal-1-2
       rect:
         serializedVersion: 2
-        x: 55
-        y: 649
+        x: 351
+        y: 951
         width: 12
         height: 32
       alignment: 0
@@ -442,11 +643,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Campfire-3
+      name: Campfire-normal-1-3
       rect:
         serializedVersion: 2
-        x: 68
-        y: 649
+        x: 364
+        y: 951
         width: 12
         height: 32
       alignment: 0
@@ -463,11 +664,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Campfire-4
+      name: Campfire-normal-1-4
       rect:
         serializedVersion: 2
-        x: 82
-        y: 649
+        x: 378
+        y: 951
         width: 12
         height: 32
       alignment: 0
@@ -487,8 +688,8 @@ TextureImporter:
       name: Chest_purple-closed
       rect:
         serializedVersion: 2
-        x: 133
-        y: 650
+        x: 629
+        y: 882
         width: 10
         height: 9
       alignment: 0
@@ -508,8 +709,8 @@ TextureImporter:
       name: Chest_purple-open
       rect:
         serializedVersion: 2
-        x: 146
-        y: 650
+        x: 642
+        y: 882
         width: 10
         height: 9
       alignment: 0
@@ -529,8 +730,8 @@ TextureImporter:
       name: Chest_yellow-closed
       rect:
         serializedVersion: 2
-        x: 133
-        y: 639
+        x: 629
+        y: 871
         width: 10
         height: 9
       alignment: 0
@@ -550,8 +751,8 @@ TextureImporter:
       name: Chest_yellow-open
       rect:
         serializedVersion: 2
-        x: 146
-        y: 639
+        x: 642
+        y: 871
         width: 10
         height: 9
       alignment: 0
@@ -571,8 +772,8 @@ TextureImporter:
       name: Chest_red-closed
       rect:
         serializedVersion: 2
-        x: 133
-        y: 629
+        x: 629
+        y: 861
         width: 10
         height: 9
       alignment: 0
@@ -592,8 +793,8 @@ TextureImporter:
       name: Chest-red_open
       rect:
         serializedVersion: 2
-        x: 146
-        y: 629
+        x: 642
+        y: 861
         width: 10
         height: 9
       alignment: 0
@@ -610,13 +811,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Banner
+      name: Banner_red
       rect:
         serializedVersion: 2
-        x: 302
-        y: 621
+        x: 79
+        y: 461
         width: 24
-        height: 27
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,8 +835,8 @@ TextureImporter:
       name: Helm_gold
       rect:
         serializedVersion: 2
-        x: 335
-        y: 624
+        x: 45
+        y: 497
         width: 14
         height: 18
       alignment: 0
@@ -652,13 +853,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat_idle
+      name: Walker_yellow_right
       rect:
         serializedVersion: 2
-        x: 306
-        y: 516
-        width: 10
-        height: 6
+        x: 41
+        y: 740
+        width: 8
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -673,13 +874,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat_flying-5
+      name: Walker_yellow_walking
       rect:
         serializedVersion: 2
-        x: 316
-        y: 512
+        x: 54
+        y: 740
         width: 10
-        height: 5
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -694,11 +895,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ForestBoss
+      name: DemonBoss
       rect:
         serializedVersion: 2
-        x: 385
-        y: 604
+        x: 143
+        y: 544
         width: 55
         height: 50
       alignment: 0
@@ -715,13 +916,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat_flying-4
+      name: Walker_yellow_walking2
       rect:
         serializedVersion: 2
-        x: 306
-        y: 507
+        x: 67
+        y: 740
         width: 10
-        height: 5
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -736,13 +937,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_26
+      name: Spider_green_attacking
       rect:
         serializedVersion: 2
-        x: 326
-        y: 512
-        width: 10
-        height: 5
+        x: 144
+        y: 821
+        width: 17
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -760,8 +961,8 @@ TextureImporter:
       name: Heart_full
       rect:
         serializedVersion: 2
-        x: 16
-        y: 536
+        x: 23
+        y: 960
         width: 7
         height: 5
       alignment: 0
@@ -778,13 +979,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat_flying-1
+      name: Spider_green_spit1
       rect:
         serializedVersion: 2
-        x: 269
-        y: 507
-        width: 10
-        height: 5
+        x: 164
+        y: 832
+        width: 6
+        height: 2
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -799,13 +1000,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat_flying-2
+      name: Spider_green_spit2
       rect:
         serializedVersion: 2
-        x: 279
-        y: 507
-        width: 10
-        height: 5
+        x: 177
+        y: 832
+        width: 6
+        height: 2
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -820,13 +1021,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat_flying-3
+      name: Spider_green_spit3
       rect:
         serializedVersion: 2
-        x: 293
-        y: 506
-        width: 10
-        height: 5
+        x: 190
+        y: 832
+        width: 6
+        height: 2
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -844,8 +1045,8 @@ TextureImporter:
       name: ManaBar-100
       rect:
         serializedVersion: 2
-        x: 16
-        y: 526
+        x: 23
+        y: 944
         width: 23
         height: 3
       alignment: 0
@@ -865,8 +1066,8 @@ TextureImporter:
       name: ManaBar-80
       rect:
         serializedVersion: 2
-        x: 16
-        y: 516
+        x: 23
+        y: 934
         width: 23
         height: 3
       alignment: 0
@@ -886,8 +1087,8 @@ TextureImporter:
       name: RedMage_left
       rect:
         serializedVersion: 2
-        x: 15
-        y: 491
+        x: 24
+        y: 893
         width: 10
         height: 11
       alignment: 0
@@ -907,8 +1108,8 @@ TextureImporter:
       name: RedMage_walking-1
       rect:
         serializedVersion: 2
-        x: 27
-        y: 491
+        x: 48
+        y: 893
         width: 10
         height: 11
       alignment: 0
@@ -928,8 +1129,8 @@ TextureImporter:
       name: RedMage_walking-2
       rect:
         serializedVersion: 2
-        x: 39
-        y: 491
+        x: 60
+        y: 893
         width: 10
         height: 11
       alignment: 0
@@ -949,8 +1150,8 @@ TextureImporter:
       name: RedMage_walking-3
       rect:
         serializedVersion: 2
-        x: 51
-        y: 491
+        x: 72
+        y: 893
         width: 10
         height: 11
       alignment: 0
@@ -970,8 +1171,8 @@ TextureImporter:
       name: RedMage_walking-4
       rect:
         serializedVersion: 2
-        x: 63
-        y: 491
+        x: 84
+        y: 893
         width: 10
         height: 11
       alignment: 0
@@ -991,8 +1192,8 @@ TextureImporter:
       name: RedMage_idle
       rect:
         serializedVersion: 2
-        x: 75
-        y: 491
+        x: 36
+        y: 893
         width: 10
         height: 11
       alignment: 0
@@ -1012,8 +1213,8 @@ TextureImporter:
       name: RedMage_jump1
       rect:
         serializedVersion: 2
-        x: 86
-        y: 491
+        x: 95
+        y: 893
         width: 10
         height: 11
       alignment: 0
@@ -1033,8 +1234,8 @@ TextureImporter:
       name: RedMage_jump-2
       rect:
         serializedVersion: 2
-        x: 97
-        y: 498
+        x: 106
+        y: 901
         width: 15
         height: 13
       alignment: 0
@@ -1054,8 +1255,8 @@ TextureImporter:
       name: RedMage_falling
       rect:
         serializedVersion: 2
-        x: 113
-        y: 496
+        x: 122
+        y: 898
         width: 12
         height: 14
       alignment: 0
@@ -1075,8 +1276,8 @@ TextureImporter:
       name: RedMage_landing
       rect:
         serializedVersion: 2
-        x: 127
-        y: 491
+        x: 136
+        y: 893
         width: 10
         height: 11
       alignment: 0
@@ -1093,13 +1294,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_43
+      name: Torch_Short_purple
       rect:
         serializedVersion: 2
-        x: 139
-        y: 491
-        width: 10
-        height: 11
+        x: 600
+        y: 880
+        width: 3
+        height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1117,8 +1318,8 @@ TextureImporter:
       name: RedMage_castFireball-1
       rect:
         serializedVersion: 2
-        x: 153
-        y: 491
+        x: 162
+        y: 893
         width: 13
         height: 11
       alignment: 0
@@ -1138,8 +1339,8 @@ TextureImporter:
       name: RedMage_castFireball-2
       rect:
         serializedVersion: 2
-        x: 168
-        y: 491
+        x: 175
+        y: 893
         width: 18
         height: 11
       alignment: 0
@@ -1159,8 +1360,8 @@ TextureImporter:
       name: RedMage_casting-1
       rect:
         serializedVersion: 2
-        x: 139
-        y: 474
+        x: 148
+        y: 876
         width: 10
         height: 11
       alignment: 0
@@ -1180,8 +1381,8 @@ TextureImporter:
       name: RedMage_casting-2
       rect:
         serializedVersion: 2
-        x: 151
-        y: 474
+        x: 160
+        y: 876
         width: 13
         height: 11
       alignment: 0
@@ -1201,8 +1402,8 @@ TextureImporter:
       name: RedMage_casting-3
       rect:
         serializedVersion: 2
-        x: 166
-        y: 474
+        x: 175
+        y: 876
         width: 13
         height: 11
       alignment: 0
@@ -1222,8 +1423,8 @@ TextureImporter:
       name: RedMage_casting-4
       rect:
         serializedVersion: 2
-        x: 179
-        y: 475
+        x: 188
+        y: 877
         width: 20
         height: 11
       alignment: 0
@@ -1243,8 +1444,8 @@ TextureImporter:
       name: Terrain_base_purple
       rect:
         serializedVersion: 2
-        x: 16
-        y: 454
+        x: 39
+        y: 304
         width: 48
         height: 9
       alignment: 0
@@ -1264,8 +1465,8 @@ TextureImporter:
       name: Terrain_base_green
       rect:
         serializedVersion: 2
-        x: 17
-        y: 436
+        x: 40
+        y: 286
         width: 48
         height: 9
       alignment: 0
@@ -1282,11 +1483,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain_foliage_1
+      name: Terrain_foliage_purple
       rect:
         serializedVersion: 2
-        x: 16
-        y: 410
+        x: 39
+        y: 260
         width: 48
         height: 20
       alignment: 0
@@ -1306,10 +1507,10 @@ TextureImporter:
       name: Terrain_base_rock
       rect:
         serializedVersion: 2
-        x: 70
-        y: 410
-        width: 48
-        height: 9
+        x: 37
+        y: 243
+        width: 126
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1327,10 +1528,10 @@ TextureImporter:
       name: Rune_green-3
       rect:
         serializedVersion: 2
-        x: 109
-        y: 313
+        x: 759
+        y: 896
         width: 82
-        height: 86
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1348,10 +1549,10 @@ TextureImporter:
       name: Rune_red-3
       rect:
         serializedVersion: 2
-        x: 274
-        y: 313
-        width: 74
-        height: 74
+        x: 773
+        y: 823
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1369,8 +1570,8 @@ TextureImporter:
       name: Rune_blue-2
       rect:
         serializedVersion: 2
-        x: 437
-        y: 324
+        x: 715
+        y: 751
         width: 42
         height: 41
       alignment: 9
@@ -1390,10 +1591,10 @@ TextureImporter:
       name: Rune_blue-3
       rect:
         serializedVersion: 2
-        x: 483
-        y: 322
-        width: 67
-        height: 61
+        x: 759
+        y: 751
+        width: 64
+        height: 56
       alignment: 9
       pivot: {x: 0.4922449, y: 0.5562179}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1408,13 +1609,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_60
+      name: Platform_White
       rect:
         serializedVersion: 2
-        x: 30
-        y: 340
-        width: 10
-        height: 11
+        x: 34
+        y: 338
+        width: 102
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1432,10 +1633,10 @@ TextureImporter:
       name: Rune_green-1
       rect:
         serializedVersion: 2
-        x: 49
-        y: 336
-        width: 24
-        height: 19
+        x: 682
+        y: 912
+        width: 20
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1453,8 +1654,8 @@ TextureImporter:
       name: Rune_blue-1
       rect:
         serializedVersion: 2
-        x: 394
-        y: 322
+        x: 676
+        y: 752
         width: 36
         height: 36
       alignment: 9
@@ -1474,8 +1675,8 @@ TextureImporter:
       name: Orb_green
       rect:
         serializedVersion: 2
-        x: 17
-        y: 293
+        x: 495
+        y: 950
         width: 20
         height: 20
       alignment: 0
@@ -1495,8 +1696,8 @@ TextureImporter:
       name: Orb_whole
       rect:
         serializedVersion: 2
-        x: 21
-        y: 274
+        x: 499
+        y: 931
         width: 15
         height: 14
       alignment: 0
@@ -1516,8 +1717,8 @@ TextureImporter:
       name: Orb_breaking-1
       rect:
         serializedVersion: 2
-        x: 41
-        y: 274
+        x: 519
+        y: 931
         width: 15
         height: 14
       alignment: 0
@@ -1537,8 +1738,8 @@ TextureImporter:
       name: Orb_breaking-2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 274
+        x: 542
+        y: 931
         width: 15
         height: 14
       alignment: 0
@@ -1558,10 +1759,10 @@ TextureImporter:
       name: Rune_yellow-1
       rect:
         serializedVersion: 2
-        x: 385
-        y: 245
-        width: 34
-        height: 37
+        x: 670
+        y: 680
+        width: 30
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1579,10 +1780,10 @@ TextureImporter:
       name: Rune_yellow-2
       rect:
         serializedVersion: 2
-        x: 430
-        y: 241
-        width: 50
-        height: 53
+        x: 712
+        y: 680
+        width: 39
+        height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1600,10 +1801,10 @@ TextureImporter:
       name: Rune_yellow-3
       rect:
         serializedVersion: 2
-        x: 482
-        y: 223
-        width: 88
-        height: 91
+        x: 756
+        y: 663
+        width: 83
+        height: 81
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1621,8 +1822,8 @@ TextureImporter:
       name: Glass_Green_whole
       rect:
         serializedVersion: 2
-        x: 19
-        y: 248
+        x: 496
+        y: 905
         width: 17
         height: 16
       alignment: 0
@@ -1642,8 +1843,8 @@ TextureImporter:
       name: Glass_green_breaking-1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 248
+        x: 518
+        y: 905
         width: 17
         height: 16
       alignment: 0
@@ -1663,8 +1864,8 @@ TextureImporter:
       name: Glass_green_breaking-2
       rect:
         serializedVersion: 2
-        x: 63
-        y: 248
+        x: 541
+        y: 905
         width: 17
         height: 16
       alignment: 0
@@ -1684,8 +1885,8 @@ TextureImporter:
       name: GroundCover_green
       rect:
         serializedVersion: 2
-        x: 27
-        y: 110
+        x: 36
+        y: 193
         width: 126
         height: 12
       alignment: 0
@@ -1702,13 +1903,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain_rock
+      name: Terrain_Rock_Dark
       rect:
         serializedVersion: 2
-        x: 28
-        y: 160
-        width: 128
-        height: 12
+        x: 35
+        y: 135
+        width: 126
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1726,8 +1927,8 @@ TextureImporter:
       name: GroundCover_red
       rect:
         serializedVersion: 2
-        x: 27
-        y: 134
+        x: 36
+        y: 217
         width: 126
         height: 12
       alignment: 0
@@ -1747,8 +1948,8 @@ TextureImporter:
       name: Switch_right
       rect:
         serializedVersion: 2
-        x: 191
-        y: 106
+        x: 34
+        y: 393
         width: 9
         height: 9
       alignment: 0
@@ -1768,8 +1969,8 @@ TextureImporter:
       name: Switch_left
       rect:
         serializedVersion: 2
-        x: 210
-        y: 106
+        x: 53
+        y: 393
         width: 9
         height: 9
       alignment: 0
@@ -1786,13 +1987,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_79
+      name: Box1
       rect:
         serializedVersion: 2
-        x: 277
-        y: 101
-        width: 10
-        height: 11
+        x: 97
+        y: 389
+        width: 17
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1807,13 +2008,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ladder
+      name: Ladder1
       rect:
         serializedVersion: 2
-        x: 300
-        y: 38
+        x: 174
+        y: 108
         width: 10
-        height: 97
+        height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1831,10 +2032,10 @@ TextureImporter:
       name: Forest_doorway
       rect:
         serializedVersion: 2
-        x: 427
-        y: 39
+        x: 384
+        y: 109
         width: 162
-        height: 80
+        height: 76
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1849,11 +2050,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundCover_blue
+      name: GroundCover_purple
       rect:
         serializedVersion: 2
-        x: 26
-        y: 85
+        x: 35
+        y: 168
         width: 126
         height: 12
       alignment: 0
@@ -1870,12 +2071,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_83
+      name: GroundCover_Short_purple
       rect:
         serializedVersion: 2
-        x: 232
-        y: 90
-        width: 17
+        x: 100
+        y: 301
+        width: 57
         height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1891,13 +2092,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain_rock2
+      name: Torch_short
       rect:
         serializedVersion: 2
-        x: 26
-        y: 52
-        width: 126
-        height: 18
+        x: 601
+        y: 857
+        width: 3
+        height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1912,11 +2113,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Platform
+      name: Platform_Brown
       rect:
         serializedVersion: 2
-        x: 169
-        y: 60
+        x: 34
+        y: 359
         width: 102
         height: 8
       alignment: 0
@@ -1933,13 +2134,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain_rock3
+      name: Torch_short_red
       rect:
         serializedVersion: 2
-        x: 26
-        y: 31
-        width: 126
-        height: 18
+        x: 601
+        y: 834
+        width: 3
+        height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1957,8 +2158,8 @@ TextureImporter:
       name: Crystal_blue-3
       rect:
         serializedVersion: 2
-        x: 105
-        y: 689
+        x: 132
+        y: 38
         width: 29
         height: 40
       alignment: 0
@@ -1978,8 +2179,8 @@ TextureImporter:
       name: Crystal_blue-2
       rect:
         serializedVersion: 2
-        x: 72
-        y: 689
+        x: 99
+        y: 38
         width: 29
         height: 40
       alignment: 0
@@ -1999,8 +2200,8 @@ TextureImporter:
       name: Crystal_blue-1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 689
+        x: 67
+        y: 38
         width: 29
         height: 40
       alignment: 0
@@ -2020,8 +2221,8 @@ TextureImporter:
       name: Crystal_blue-4
       rect:
         serializedVersion: 2
-        x: 139
-        y: 689
+        x: 166
+        y: 38
         width: 29
         height: 40
       alignment: 0
@@ -2041,9 +2242,9 @@ TextureImporter:
       name: Crystal_red-1
       rect:
         serializedVersion: 2
-        x: 176
-        y: 689
-        width: 28
+        x: 203
+        y: 38
+        width: 29
         height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2062,10 +2263,10 @@ TextureImporter:
       name: Crystal_red-2
       rect:
         serializedVersion: 2
-        x: 210
-        y: 689
+        x: 237
+        y: 38
         width: 29
-        height: 40
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2083,10 +2284,10 @@ TextureImporter:
       name: Crystal_red-3
       rect:
         serializedVersion: 2
-        x: 243
-        y: 689
+        x: 270
+        y: 38
         width: 29
-        height: 40
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2104,10 +2305,10 @@ TextureImporter:
       name: Crystal_red-4
       rect:
         serializedVersion: 2
-        x: 278
-        y: 689
+        x: 305
+        y: 38
         width: 29
-        height: 40
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2125,8 +2326,8 @@ TextureImporter:
       name: Crystal_blue_idle
       rect:
         serializedVersion: 2
-        x: 17
-        y: 689
+        x: 43
+        y: 38
         width: 22
         height: 40
       alignment: 0
@@ -2146,10 +2347,10 @@ TextureImporter:
       name: Helm_white
       rect:
         serializedVersion: 2
-        x: 355
-        y: 624
+        x: 61
+        y: 497
         width: 13
-        height: 19
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2167,8 +2368,8 @@ TextureImporter:
       name: Heart_half
       rect:
         serializedVersion: 2
-        x: 24
-        y: 536
+        x: 31
+        y: 960
         width: 7
         height: 5
       alignment: 0
@@ -2188,8 +2389,8 @@ TextureImporter:
       name: Heart_empty
       rect:
         serializedVersion: 2
-        x: 32
-        y: 536
+        x: 39
+        y: 960
         width: 7
         height: 5
       alignment: 0
@@ -2209,12 +2410,12 @@ TextureImporter:
       name: ManaBar-90
       rect:
         serializedVersion: 2
-        x: 16
-        y: 521
+        x: 23
+        y: 939
         width: 23
         height: 3
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.48174188, y: 0.49997965}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2230,9 +2431,9 @@ TextureImporter:
       name: RedMage_castFireball-3
       rect:
         serializedVersion: 2
-        x: 188
-        y: 491
-        width: 34
+        x: 193
+        y: 893
+        width: 36
         height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2251,8 +2452,8 @@ TextureImporter:
       name: OldWagon
       rect:
         serializedVersion: 2
-        x: 192
-        y: 615
+        x: 513
+        y: 871
         width: 36
         height: 16
       alignment: 0
@@ -2272,8 +2473,8 @@ TextureImporter:
       name: Pot_whole
       rect:
         serializedVersion: 2
-        x: 224
-        y: 604
+        x: 628
+        y: 847
         width: 6
         height: 7
       alignment: 0
@@ -2293,8 +2494,8 @@ TextureImporter:
       name: Pot_breaking
       rect:
         serializedVersion: 2
-        x: 232
-        y: 604
+        x: 636
+        y: 847
         width: 6
         height: 7
       alignment: 0
@@ -2314,8 +2515,8 @@ TextureImporter:
       name: TorchBase
       rect:
         serializedVersion: 2
-        x: 254
-        y: 615
+        x: 595
+        y: 850
         width: 3
         height: 14
       alignment: 0
@@ -2335,8 +2536,8 @@ TextureImporter:
       name: TorchFire
       rect:
         serializedVersion: 2
-        x: 254
-        y: 629
+        x: 595
+        y: 886
         width: 3
         height: 5
       alignment: 0
@@ -2356,8 +2557,8 @@ TextureImporter:
       name: TorchFire-2
       rect:
         serializedVersion: 2
-        x: 259
-        y: 629
+        x: 600
+        y: 886
         width: 3
         height: 5
       alignment: 0
@@ -2377,8 +2578,8 @@ TextureImporter:
       name: TorchFire-3
       rect:
         serializedVersion: 2
-        x: 264
-        y: 629
+        x: 605
+        y: 886
         width: 3
         height: 5
       alignment: 0
@@ -2398,8 +2599,8 @@ TextureImporter:
       name: Rune_green-2
       rect:
         serializedVersion: 2
-        x: 87
-        y: 337
+        x: 726
+        y: 909
         width: 22
         height: 27
       alignment: 0
@@ -2419,10 +2620,10 @@ TextureImporter:
       name: Rune_red-2
       rect:
         serializedVersion: 2
-        x: 235
-        y: 326
-        width: 42
-        height: 42
+        x: 723
+        y: 827
+        width: 36
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2440,8 +2641,8 @@ TextureImporter:
       name: Rune_red-1
       rect:
         serializedVersion: 2
-        x: 202
-        y: 327
+        x: 680
+        y: 830
         width: 30
         height: 30
       alignment: 0
@@ -2461,8 +2662,8 @@ TextureImporter:
       name: Orb_red
       rect:
         serializedVersion: 2
-        x: 39
-        y: 293
+        x: 517
+        y: 950
         width: 20
         height: 20
       alignment: 0
@@ -2482,8 +2683,8 @@ TextureImporter:
       name: Orb_blue
       rect:
         serializedVersion: 2
-        x: 62
-        y: 293
+        x: 540
+        y: 950
         width: 20
         height: 20
       alignment: 0
@@ -2503,8 +2704,8 @@ TextureImporter:
       name: Orb_yellow
       rect:
         serializedVersion: 2
-        x: 84
-        y: 293
+        x: 562
+        y: 950
         width: 20
         height: 20
       alignment: 0
@@ -2524,8 +2725,8 @@ TextureImporter:
       name: Orb_breaking-3
       rect:
         serializedVersion: 2
-        x: 87
-        y: 274
+        x: 565
+        y: 931
         width: 15
         height: 14
       alignment: 0
@@ -2545,8 +2746,8 @@ TextureImporter:
       name: Orb_breaking-4
       rect:
         serializedVersion: 2
-        x: 108
-        y: 274
+        x: 586
+        y: 931
         width: 15
         height: 14
       alignment: 0
@@ -2566,8 +2767,8 @@ TextureImporter:
       name: Glass_green_breaking-3
       rect:
         serializedVersion: 2
-        x: 87
-        y: 248
+        x: 565
+        y: 905
         width: 17
         height: 16
       alignment: 0
@@ -2587,8 +2788,8 @@ TextureImporter:
       name: Glass_green_breaking-4
       rect:
         serializedVersion: 2
-        x: 109
-        y: 248
+        x: 587
+        y: 905
         width: 17
         height: 16
       alignment: 0
@@ -2605,11 +2806,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Campfire-5
+      name: Campfire-normal-1-5
       rect:
         serializedVersion: 2
-        x: 96
-        y: 649
+        x: 392
+        y: 951
         width: 12
         height: 32
       alignment: 0
@@ -2629,10 +2830,10 @@ TextureImporter:
       name: Crystal_red_idle
       rect:
         serializedVersion: 2
-        x: 311
-        y: 689
+        x: 338
+        y: 38
         width: 29
-        height: 40
+        height: 39
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2650,10 +2851,10 @@ TextureImporter:
       name: Crystal_red_idle-2
       rect:
         serializedVersion: 2
-        x: 344
-        y: 689
+        x: 371
+        y: 38
         width: 29
-        height: 40
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2671,8 +2872,8 @@ TextureImporter:
       name: campfire_red
       rect:
         serializedVersion: 2
-        x: 42
-        y: 617
+        x: 412
+        y: 952
         width: 12
         height: 28
       alignment: 0
@@ -2692,8 +2893,8 @@ TextureImporter:
       name: Campfire_red-5
       rect:
         serializedVersion: 2
-        x: 97
-        y: 617
+        x: 467
+        y: 952
         width: 12
         height: 28
       alignment: 0
@@ -2713,8 +2914,8 @@ TextureImporter:
       name: Campfire_red-4
       rect:
         serializedVersion: 2
-        x: 83
-        y: 617
+        x: 453
+        y: 952
         width: 12
         height: 28
       alignment: 0
@@ -2734,8 +2935,8 @@ TextureImporter:
       name: campfire_red-3
       rect:
         serializedVersion: 2
-        x: 69
-        y: 617
+        x: 439
+        y: 952
         width: 12
         height: 28
       alignment: 0
@@ -2755,8 +2956,8 @@ TextureImporter:
       name: campfire_red-2
       rect:
         serializedVersion: 2
-        x: 56
-        y: 617
+        x: 426
+        y: 952
         width: 12
         height: 28
       alignment: 0
@@ -2776,8 +2977,8 @@ TextureImporter:
       name: Campfire_blue
       rect:
         serializedVersion: 2
-        x: 44
-        y: 578
+        x: 337
+        y: 913
         width: 12
         height: 32
       alignment: 0
@@ -2797,8 +2998,8 @@ TextureImporter:
       name: Campfire_blue-2
       rect:
         serializedVersion: 2
-        x: 58
-        y: 578
+        x: 351
+        y: 913
         width: 12
         height: 32
       alignment: 0
@@ -2818,8 +3019,8 @@ TextureImporter:
       name: Campfire_blue-3
       rect:
         serializedVersion: 2
-        x: 71
-        y: 578
+        x: 364
+        y: 913
         width: 12
         height: 32
       alignment: 0
@@ -2839,8 +3040,8 @@ TextureImporter:
       name: Campfire_blue-4
       rect:
         serializedVersion: 2
-        x: 85
-        y: 578
+        x: 378
+        y: 913
         width: 12
         height: 32
       alignment: 0
@@ -2860,8 +3061,8 @@ TextureImporter:
       name: Campfire_blue-5
       rect:
         serializedVersion: 2
-        x: 99
-        y: 578
+        x: 392
+        y: 913
         width: 12
         height: 32
       alignment: 0
@@ -2878,12 +3079,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RuneIcon_green
+      name: Heart_grey_full
       rect:
         serializedVersion: 2
-        x: 16
-        y: 542
-        width: 5
+        x: 23
+        y: 954
+        width: 7
         height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2899,12 +3100,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RuneIcon_red
+      name: Heart_grey_half
       rect:
         serializedVersion: 2
-        x: 22
-        y: 542
-        width: 5
+        x: 31
+        y: 954
+        width: 7
         height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2920,12 +3121,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RuneIcon_blue
+      name: Heart_grey_empty
       rect:
         serializedVersion: 2
-        x: 28
-        y: 542
-        width: 5
+        x: 39
+        y: 954
+        width: 7
         height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2941,12 +3142,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RuneIcon_yellow
+      name: Heart_black_full
       rect:
         serializedVersion: 2
-        x: 34
-        y: 542
-        width: 5
+        x: 23
+        y: 948
+        width: 7
         height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2962,12 +3163,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_122
+      name: Heart_black_half
       rect:
         serializedVersion: 2
-        x: 40
-        y: 542
-        width: 5
+        x: 31
+        y: 948
+        width: 7
         height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2983,12 +3184,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_123
+      name: Heart_black_empty
       rect:
         serializedVersion: 2
-        x: 16
-        y: 548
-        width: 5
+        x: 39
+        y: 948
+        width: 7
         height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3004,11 +3205,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_124
+      name: RuneIcon_Green_whiteTrim
       rect:
         serializedVersion: 2
-        x: 22
-        y: 548
+        x: 23
+        y: 978
         width: 5
         height: 5
       alignment: 0
@@ -3025,11 +3226,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_125
+      name: RuneIcon_Red_whiteTrim
       rect:
         serializedVersion: 2
-        x: 28
-        y: 548
+        x: 29
+        y: 978
         width: 5
         height: 5
       alignment: 0
@@ -3046,11 +3247,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_126
+      name: RuneIcon_Blue_whiteTrim
       rect:
         serializedVersion: 2
-        x: 34
-        y: 548
+        x: 35
+        y: 978
         width: 5
         height: 5
       alignment: 0
@@ -3067,11 +3268,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_127
+      name: RuneIcon_Yellow_whiteTrim
       rect:
         serializedVersion: 2
-        x: 40
-        y: 548
+        x: 41
+        y: 978
         width: 5
         height: 5
       alignment: 0
@@ -3088,12 +3289,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_128
+      name: RuneIcon_Green_greyTrim
       rect:
         serializedVersion: 2
-        x: 16
-        y: 530
-        width: 7
+        x: 23
+        y: 966
+        width: 5
         height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3109,12 +3310,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_129
+      name: RuneIcon_Red_greyTrim
       rect:
         serializedVersion: 2
-        x: 24
-        y: 530
-        width: 7
+        x: 29
+        y: 966
+        width: 5
         height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3130,12 +3331,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_130
+      name: RuneIcon_Blue_greyTrim
       rect:
         serializedVersion: 2
-        x: 32
-        y: 530
-        width: 7
+        x: 35
+        y: 966
+        width: 5
         height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3154,8 +3355,8 @@ TextureImporter:
       name: TorchFire-4
       rect:
         serializedVersion: 2
-        x: 267
-        y: 629
+        x: 608
+        y: 886
         width: 3
         height: 5
       alignment: 0
@@ -3175,8 +3376,8 @@ TextureImporter:
       name: TorchFire-5
       rect:
         serializedVersion: 2
-        x: 273
-        y: 629
+        x: 614
+        y: 886
         width: 3
         height: 5
       alignment: 0
@@ -3196,12 +3397,12 @@ TextureImporter:
       name: TorchBase_red
       rect:
         serializedVersion: 2
-        x: 254
-        y: 593
+        x: 595
+        y: 828
         width: 3
         height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.86220294, y: 0.99154663}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3217,8 +3418,8 @@ TextureImporter:
       name: TorchBase_purple
       rect:
         serializedVersion: 2
-        x: 254
-        y: 637
+        x: 595
+        y: 872
         width: 3
         height: 14
       alignment: 0
@@ -3238,8 +3439,8 @@ TextureImporter:
       name: Pot_broken
       rect:
         serializedVersion: 2
-        x: 240
-        y: 604
+        x: 644
+        y: 847
         width: 10
         height: 7
       alignment: 0
@@ -3259,8 +3460,8 @@ TextureImporter:
       name: Pot_purple-whole
       rect:
         serializedVersion: 2
-        x: 224
-        y: 593
+        x: 628
+        y: 836
         width: 6
         height: 7
       alignment: 0
@@ -3280,8 +3481,8 @@ TextureImporter:
       name: Pot_purple-breaking
       rect:
         serializedVersion: 2
-        x: 232
-        y: 593
+        x: 636
+        y: 836
         width: 6
         height: 7
       alignment: 0
@@ -3301,8 +3502,8 @@ TextureImporter:
       name: Pot_purple-broken
       rect:
         serializedVersion: 2
-        x: 240
-        y: 593
+        x: 644
+        y: 836
         width: 10
         height: 7
       alignment: 0
@@ -3322,8 +3523,8 @@ TextureImporter:
       name: Pot_red-whole
       rect:
         serializedVersion: 2
-        x: 224
-        y: 582
+        x: 628
+        y: 825
         width: 6
         height: 7
       alignment: 0
@@ -3343,8 +3544,8 @@ TextureImporter:
       name: Pot_red-breaking
       rect:
         serializedVersion: 2
-        x: 232
-        y: 582
+        x: 636
+        y: 825
         width: 6
         height: 7
       alignment: 0
@@ -3364,8 +3565,8 @@ TextureImporter:
       name: Pot_red-broken
       rect:
         serializedVersion: 2
-        x: 240
-        y: 582
+        x: 644
+        y: 825
         width: 10
         height: 7
       alignment: 0
@@ -3382,11 +3583,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monster_purple_right
+      name: Walker_purple_right
       rect:
         serializedVersion: 2
-        x: 283
-        y: 462
+        x: 40
+        y: 768
         width: 8
         height: 12
       alignment: 0
@@ -3403,12 +3604,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monster_purple_walking
+      name: Walker_purple_walking
       rect:
         serializedVersion: 2
-        x: 297
-        y: 462
-        width: 9
+        x: 53
+        y: 768
+        width: 10
         height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3424,11 +3625,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monster_purple_walking-2
+      name: Walker_purple_walking-2
       rect:
         serializedVersion: 2
-        x: 309
-        y: 462
+        x: 66
+        y: 768
         width: 10
         height: 12
       alignment: 0
@@ -3445,13 +3646,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_145
+      name: Spider_green_spit4
       rect:
         serializedVersion: 2
-        x: 271
-        y: 462
-        width: 8
-        height: 12
+        x: 202
+        y: 830
+        width: 5
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3466,13 +3667,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monser_green-left
+      name: Spider_green_spit5
       rect:
         serializedVersion: 2
-        x: 271
-        y: 448
-        width: 8
-        height: 12
+        x: 212
+        y: 829
+        width: 5
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3487,11 +3688,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monster_green_right
+      name: Walker_green_right
       rect:
         serializedVersion: 2
-        x: 283
-        y: 448
+        x: 40
+        y: 754
         width: 8
         height: 12
       alignment: 0
@@ -3508,11 +3709,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monster_green_walking
+      name: Walker_green_walking
       rect:
         serializedVersion: 2
-        x: 296
-        y: 448
+        x: 53
+        y: 754
         width: 10
         height: 12
       alignment: 0
@@ -3529,11 +3730,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monster_green_walking-2
+      name: Walker_green_walking-2
       rect:
         serializedVersion: 2
-        x: 309
-        y: 448
+        x: 66
+        y: 754
         width: 10
         height: 12
       alignment: 0
@@ -3550,158 +3751,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_150
+      name: Spider_green_1
       rect:
         serializedVersion: 2
-        x: 339
-        y: 515
-        width: 3
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8db2744bac81588d0800000000000000
-      internalID: -2844840330727576616
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MFsprites_151
-      rect:
-        serializedVersion: 2
-        x: 343
-        y: 515
-        width: 3
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d043af4a33c40bd50800000000000000
-      internalID: 6750979626123277325
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MFsprites_152
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 434
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 602b0f7ae9b17fac0800000000000000
-      internalID: -3821555390564224506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MFsprites_153
-      rect:
-        serializedVersion: 2
-        x: 284
-        y: 434
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25dbc553e9bad6190800000000000000
-      internalID: -7967523469760086702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MFsprites_154
-      rect:
-        serializedVersion: 2
-        x: 297
-        y: 434
-        width: 10
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f66c925fdbb8b5370800000000000000
-      internalID: 8312391185220617839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MFsprites_155
-      rect:
-        serializedVersion: 2
-        x: 310
-        y: 434
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: afc8aa4071d38ae70800000000000000
-      internalID: 9126611813938138362
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MFsprites_156
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 532
-        width: 17
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f4b1586143d4a050800000000000000
-      internalID: 5811001697091302640
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MFsprites_157
-      rect:
-        serializedVersion: 2
-        x: 387
-        y: 532
+        x: 144
+        y: 838
         width: 17
         height: 15
       alignment: 0
@@ -3718,11 +3772,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_158
+      name: Spider_green_2
       rect:
         serializedVersion: 2
-        x: 406
-        y: 532
+        x: 162
+        y: 838
         width: 17
         height: 15
       alignment: 0
@@ -3739,11 +3793,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_159
+      name: Spider_green_3
       rect:
         serializedVersion: 2
-        x: 424
-        y: 532
+        x: 181
+        y: 838
         width: 17
         height: 15
       alignment: 0
@@ -3760,11 +3814,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_160
+      name: Spider_green_4
       rect:
         serializedVersion: 2
-        x: 443
-        y: 532
+        x: 200
+        y: 838
         width: 17
         height: 15
       alignment: 0
@@ -3781,13 +3835,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_161
+      name: ArmoredBoss_walking1
       rect:
         serializedVersion: 2
-        x: 387
-        y: 515
-        width: 17
-        height: 15
+        x: 65
+        y: 688
+        width: 33
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3802,13 +3856,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_162
+      name: ArmoredBoss_walking2
       rect:
         serializedVersion: 2
-        x: 407
-        y: 526
-        width: 6
-        height: 2
+        x: 101
+        y: 688
+        width: 33
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3823,13 +3877,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_163
+      name: ArmoredBoss_attack1
       rect:
         serializedVersion: 2
-        x: 420
-        y: 526
-        width: 6
-        height: 2
+        x: 71
+        y: 644
+        width: 47
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3844,13 +3898,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_164
+      name: ArmoredBoss_attack2
       rect:
         serializedVersion: 2
-        x: 432
-        y: 526
-        width: 6
-        height: 2
+        x: 119
+        y: 646
+        width: 59
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3865,13 +3919,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_165
+      name: ArmoredBoss_attack3
       rect:
         serializedVersion: 2
-        x: 368
-        y: 493
-        width: 17
-        height: 15
+        x: 31
+        y: 605
+        width: 40
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3886,13 +3940,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_166
+      name: ArmoredBoss_range1
       rect:
         serializedVersion: 2
-        x: 387
-        y: 493
-        width: 17
-        height: 15
+        x: 75
+        y: 624
+        width: 3
+        height: 3
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3907,13 +3961,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_167
+      name: ArmoredBoss_range2
       rect:
         serializedVersion: 2
-        x: 406
-        y: 493
-        width: 17
-        height: 15
+        x: 85
+        y: 624
+        width: 5
+        height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3928,13 +3982,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_168
+      name: ArmoredBoss_range3
       rect:
         serializedVersion: 2
-        x: 424
-        y: 493
-        width: 17
-        height: 15
+        x: 96
+        y: 622
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3949,13 +4003,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_169
+      name: ArmoredBoss_range4
       rect:
         serializedVersion: 2
-        x: 443
-        y: 493
-        width: 17
-        height: 15
+        x: 111
+        y: 619
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3970,13 +4024,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_170
+      name: ArmoredBoss_range5
       rect:
         serializedVersion: 2
-        x: 387
-        y: 476
-        width: 17
-        height: 15
+        x: 130
+        y: 617
+        width: 20
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3991,13 +4045,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_171
+      name: Redmage_air_attack
       rect:
         serializedVersion: 2
-        x: 407
-        y: 487
-        width: 6
-        height: 2
+        x: 117
+        y: 914
+        width: 20
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4005,62 +4059,1154 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6162d18f5aa51230800000000000000
-      internalID: 3608978003583983979
+      spriteID: 6809e0339b4776a40800000000000000
+      internalID: 5361382220182229126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_172
+      name: Redmage_climbing1
       rect:
         serializedVersion: 2
-        x: 420
-        y: 487
-        width: 6
-        height: 2
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: beea69b622cf8be00800000000000000
-      internalID: 1060874937009876715
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MFsprites_173
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 487
-        width: 6
-        height: 2
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b94bef33a815ff0b0800000000000000
-      internalID: -5692741749953350501
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MFsprites_174
-      rect:
-        serializedVersion: 2
-        x: 269
-        y: 484
+        x: 149
+        y: 908
         width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcc265de3e4ba840800000000000000
+      internalID: 5236365023523294426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redmage_climbing2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 921
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2593ef24d1280c690800000000000000
+      internalID: -7583918710302295726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redmage_runecast1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 907
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536776820b2c6ae20800000000000000
+      internalID: 3361588233726555701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redmage_runecast_green
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 924
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c471a8a6572ec3b0800000000000000
+      internalID: -5490407642568231735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redmage_runecast_red
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 924
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b7db90ac315b6f0800000000000000
+      internalID: -669607211126916341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redmage_runecast_blue
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 924
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eac12cd9eb87caf0800000000000000
+      internalID: -376178207325304094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redmage_runecast_yellow
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 924
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c163891265f13d80800000000000000
+      internalID: -8272561238819249719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redmage_dance_R
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 878
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ba9eed5a1a46480800000000000000
+      internalID: -8906816429250467047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redmage_dance_L
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 878
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8283b81f35843daa0800000000000000
+      internalID: -6137482341803935704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redmage_crouchcast1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 877
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bd40c940e7c3c70800000000000000
+      internalID: 8952168717568236439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Redmage_crouchcast2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 877
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be821ae02946ac240800000000000000
+      internalID: 4812769730272241899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_Rock_Light
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 114
+        width: 126
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7aac55d5250e8a0800000000000000
+      internalID: -6277927319729690703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_purple1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 876
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16e9c5b2d2c6d0c0800000000000000
+      internalID: -4551236163162479073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_purple2
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 876
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dd8fc9d308b62c0800000000000000
+      internalID: -4437312005728576111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_purple3
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 876
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eef60ba6ca2f8420800000000000000
+      internalID: 2634371339796283105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_purple4
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 876
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00a2ffaa9bef2350800000000000000
+      internalID: 5994268678662823950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire_purple5
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 876
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f94028b3b372c060800000000000000
+      internalID: 6972262388848413177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_base_vines
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 260
+        width: 48
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a5608b546157af0800000000000000
+      internalID: -399388503256442299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helm_purple
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 497
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94de04fcae2ed880800000000000000
+      internalID: -8584372519357721446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banner_red_helm
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 427
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8efe1868cfb738c0800000000000000
+      internalID: -4019533274943652211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banner_blue
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 461
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c3759e6300ba620800000000000000
+      internalID: 2786321030301826187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banner_blue_helm
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 427
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e0bcbbd3d6bb1a0800000000000000
+      internalID: -6792715501047181696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banner_green
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 461
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5603d8fb50aab6e00800000000000000
+      internalID: 1039111080704290917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banner_green_helm
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 427
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a55a8cdd451e410800000000000000
+      internalID: 1504577062049241683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIcon_Yellow_greyTrim
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 966
+        width: 5
         height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1a65e00b290e1d0800000000000000
+      internalID: -3323495240146968084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkForest_Text
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 942
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e4d95f3a4849750800000000000000
+      internalID: 6310814817588170245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_blue_anim1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 836
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8022c5ad53acf6c50800000000000000
+      internalID: 6660764706549801480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_blue_anim2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 836
+        width: 10
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801986bed1a607f40800000000000000
+      internalID: 5724191803123994888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_blue_anim3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 836
+        width: 10
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b97d2bacd8ea2a0800000000000000
+      internalID: -6724281291894187174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_blue_anim4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 837
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5256ab534690cba0800000000000000
+      internalID: -6070687081650826659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_blue_anim5
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 842
+        width: 9
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161d1f36e886ad7a0800000000000000
+      internalID: -6351649363681226399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_blue_anim6
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 841
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c70224832b193270800000000000000
+      internalID: 8230639633350920134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_blue_hanging
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 844
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efd34f86cb8ccd30800000000000000
+      internalID: 4453087816485953505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_red_anim1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 790
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5180fd6d7e21be0800000000000000
+      internalID: -1507888015164828202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_red_anim2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 790
+        width: 10
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f4cf9d1b843d0a0800000000000000
+      internalID: -6858057878851530971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_red_anim3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 790
+        width: 10
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c935a3cc1271030800000000000000
+      internalID: 3465275599320489116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_red_anim4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 791
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec4e3c12d33cd930800000000000000
+      internalID: 4169264332548230382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_red_anim5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 796
+        width: 9
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543f891946323a9f0800000000000000
+      internalID: -458483822215236795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_red_anim6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 795
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119f3f13777966cd0800000000000000
+      internalID: -2565196399545943791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_red_hanging
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 798
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60db04c74084c7d90800000000000000
+      internalID: -7098719728541057786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_black_anim1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 813
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347c4fb85babba180800000000000000
+      internalID: -9102976932899403965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_black_anim2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 813
+        width: 10
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5e9b7ecd247d9d0800000000000000
+      internalID: -2749655530938440231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_black_anim3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 813
+        width: 10
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1177754876f0ce7d0800000000000000
+      internalID: -2887916323774957807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_black_anim4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 814
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170d155d1992add70800000000000000
+      internalID: 9068606505989820529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_black_anim5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 819
+        width: 9
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef3bf85e92dd2320800000000000000
+      internalID: 2534913742818983916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_black_anim6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 818
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530b7b335b18cf0e0800000000000000
+      internalID: -2234768699825868747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_black_hanging
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 821
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e7f2d2695f622e0800000000000000
+      internalID: -2150761746670846436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_purple_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 799
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db2744bac81588d0800000000000000
+      internalID: -2844840330727576616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_purple_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 799
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d043af4a33c40bd50800000000000000
+      internalID: 6750979626123277325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_purple_3
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 799
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602b0f7ae9b17fac0800000000000000
+      internalID: -3821555390564224506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_purple_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 799
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25dbc553e9bad6190800000000000000
+      internalID: -7967523469760086702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_purple_attacking
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 782
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66c925fdbb8b5370800000000000000
+      internalID: 8312391185220617839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_purple_spit1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 793
+        width: 7
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc8aa4071d38ae70800000000000000
+      internalID: 9126611813938138362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_purple_spit2
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 793
+        width: 6
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4b1586143d4a050800000000000000
+      internalID: 5811001697091302640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_purple_spit3
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 793
+        width: 6
+        height: 2
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4075,12 +5221,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_175
+      name: Spider_purple_spit4
       rect:
         serializedVersion: 2
-        x: 279
-        y: 484
-        width: 10
+        x: 203
+        y: 791
+        width: 5
         height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -4096,13 +5242,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_176
+      name: Spider_purple_spit5
       rect:
         serializedVersion: 2
-        x: 293
-        y: 483
-        width: 10
-        height: 5
+        x: 214
+        y: 791
+        width: 5
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4117,13 +5263,76 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_177
+      name: Ladder2
       rect:
         serializedVersion: 2
-        x: 306
-        y: 484
+        x: 193
+        y: 108
         width: 10
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6162d18f5aa51230800000000000000
+      internalID: 3608978003583983979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ladder3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 107
+        width: 10
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beea69b622cf8be00800000000000000
+      internalID: 1060874937009876715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock_small_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 253
+        width: 17
         height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94bef33a815ff0b0800000000000000
+      internalID: -5692741749953350501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock_small_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 231
+        width: 17
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4138,13 +5347,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_178
+      name: Rock_medium_1
       rect:
         serializedVersion: 2
-        x: 306
-        y: 493
-        width: 10
-        height: 5
+        x: 261
+        y: 252
+        width: 15
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4159,13 +5368,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_179
+      name: Rock_medium_2
       rect:
         serializedVersion: 2
-        x: 316
-        y: 489
-        width: 10
-        height: 5
+        x: 277
+        y: 230
+        width: 15
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4180,13 +5389,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_180
+      name: Rock_large_1
       rect:
         serializedVersion: 2
-        x: 326
-        y: 489
-        width: 10
-        height: 5
+        x: 235
+        y: 267
+        width: 27
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4201,13 +5410,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_181
+      name: Rock_large_2
       rect:
         serializedVersion: 2
-        x: 339
-        y: 492
-        width: 3
-        height: 5
+        x: 236
+        y: 230
+        width: 35
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4222,13 +5431,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_182
+      name: Rock_large_3
       rect:
         serializedVersion: 2
-        x: 343
-        y: 492
-        width: 3
-        height: 5
+        x: 281
+        y: 252
+        width: 36
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4243,13 +5452,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_183
+      name: Arch
       rect:
         serializedVersion: 2
-        x: 268
-        y: 530
-        width: 10
-        height: 5
+        x: 236
+        y: 163
+        width: 29
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4264,13 +5473,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_184
+      name: Arch_Ruins_1
       rect:
         serializedVersion: 2
-        x: 278
-        y: 530
-        width: 10
-        height: 5
+        x: 269
+        y: 163
+        width: 28
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4285,13 +5494,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_185
+      name: Arch_Ruins_2
       rect:
         serializedVersion: 2
-        x: 291
-        y: 529
-        width: 11
-        height: 5
+        x: 300
+        y: 163
+        width: 30
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4306,13 +5515,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_186
+      name: Arch_ruins_3
       rect:
         serializedVersion: 2
-        x: 305
-        y: 530
-        width: 10
-        height: 5
+        x: 333
+        y: 163
+        width: 31
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4327,13 +5536,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_187
+      name: Arch_Ruins_4
       rect:
         serializedVersion: 2
-        x: 316
-        y: 535
-        width: 9
-        height: 5
+        x: 236
+        y: 202
+        width: 41
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4348,13 +5557,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_188
+      name: Light_empty_1
       rect:
         serializedVersion: 2
-        x: 325
-        y: 535
+        x: 281
+        y: 202
         width: 10
-        height: 5
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4369,13 +5578,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_189
+      name: Light_empty_2
       rect:
         serializedVersion: 2
-        x: 338
-        y: 538
-        width: 3
-        height: 5
+        x: 294
+        y: 202
+        width: 9
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4390,13 +5599,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_190
+      name: Light_Lit_1
       rect:
         serializedVersion: 2
-        x: 342
-        y: 538
-        width: 3
-        height: 5
+        x: 308
+        y: 202
+        width: 10
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4411,13 +5620,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MFsprites_191
+      name: Light_lit_2
       rect:
         serializedVersion: 2
-        x: 305
-        y: 539
+        x: 322
+        y: 202
         width: 10
-        height: 5
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4427,6 +5636,342 @@ TextureImporter:
       bones: []
       spriteID: 459501a5251b80680800000000000000
       internalID: -8788579705557067436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_Bell_1
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 128
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b14fa01575e4fd0800000000000000
+      internalID: -2355849549480453305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_bell_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 128
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771190b01caa5c080800000000000000
+      internalID: -9167733720352222857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_star_large
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 107
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f41c192fcf5ac70800000000000000
+      internalID: 8981863150617972608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_star_small
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 107
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec954f40f4cc51f0800000000000000
+      internalID: -1054751676310381331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_shrub_large_1
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 122
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55bb6ec2109ee610800000000000000
+      internalID: 1652416523738527071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_shrub_large_2
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 122
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94066ba97f7c9160800000000000000
+      internalID: 7033636878589232284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_shrub_medium_1
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 107
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683d734fc4220d1d0800000000000000
+      internalID: -3328122410716638330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_shrub_medium_2
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 107
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddd19eac3aa884a0800000000000000
+      internalID: -6590830877053166120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_flowers_1
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 108
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e73fadcc75ed0c30800000000000000
+      internalID: 4327367141162432488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_shrub_small_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 122
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cbf76ad04adfbc0800000000000000
+      internalID: -3747658936367465363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_shrub_small_2
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 122
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d502a4ab1673eda0800000000000000
+      internalID: -5916755624336423468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_shrub_small_3
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 108
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308f4df0d609d6d30800000000000000
+      internalID: 4426352806866515971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_Idle
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 770
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0ab4fc66f166310800000000000000
+      internalID: 1397839260770083033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_walking_1
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 770
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40188d872d02af130800000000000000
+      internalID: 3601226940378808580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_walking_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 770
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb0a61c5caac0c10800000000000000
+      internalID: 2021178099112741879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_walking_3
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 770
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49470b7a2e9842820800000000000000
+      internalID: 2892588467247674516
       vertices: []
       indices: 
       edges: []
