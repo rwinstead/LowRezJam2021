@@ -23,7 +23,11 @@ public class FlyingEnemyAI : MonoBehaviour
 
     public float UpdatePathRate =  .5f;
 
-    public bool canMove = true;
+    public bool canMove = false;
+    private bool freezing = false;
+    private bool playerSeen = false;
+
+    public Animator batAnim;
 
     public GameObject frostParticles;
 
@@ -101,20 +105,38 @@ public class FlyingEnemyAI : MonoBehaviour
 
     public void Frozen()
     {
-        StartCoroutine("Freeze");
+        if (!freezing)
+        {
+            StartCoroutine("Freeze");
+        }
+
     }
 
     public IEnumerator Freeze()
     {
+        freezing = true;
         canMove = false;
         enemySprite.color = new Color(0, 0, 1, 1);
         frostParticles.SetActive(true);
+        batAnim.speed = 0;
 
         yield return new WaitForSeconds(5);
 
+        batAnim.speed = 1;
+        freezing = false;
         canMove = true;
         enemySprite.color = new Color(1, 1, 1, 1);
         frostParticles.SetActive(false);
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player") && !playerSeen)
+        {
+            playerSeen = true;
+            canMove = true;
+            batAnim.SetBool("PlayerInRange", true);
+        }
     }
 
 }
