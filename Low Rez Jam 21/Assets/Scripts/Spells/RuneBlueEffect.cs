@@ -20,7 +20,7 @@ public class RuneBlueEffect : MonoBehaviour
         if(collision.gameObject.CompareTag("Enemy"))
         {
             Debug.Log("Enemy hit with freeze");
-            collision.gameObject.GetComponent<EnemyHitBySpell>().FreezeEnemy();
+            collision.gameObject.GetComponent<EnemyHitManager>().FreezeEnemy();
         }
     }
 

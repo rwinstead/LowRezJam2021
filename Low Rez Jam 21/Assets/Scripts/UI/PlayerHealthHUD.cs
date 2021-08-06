@@ -13,7 +13,7 @@ public class PlayerHealthHUD : MonoBehaviour
     public Sprite halfHeart;
     public Sprite emptyHeart;
 
-    private int lastHealth = 0;
+    private int lastHealth = -1;
     private int currentHealth;
     
     // Start is called before the first frame update

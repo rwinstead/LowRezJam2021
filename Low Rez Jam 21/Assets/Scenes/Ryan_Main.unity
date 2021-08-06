@@ -238,6 +238,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4306503415744537853, guid: a9375ee755b8df842b87f96a359801ba, type: 3}
   m_PrefabInstance: {fileID: 4306503415619930717}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &256485711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 256485712}
+  m_Layer: 0
+  m_Name: AttackPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &256485712
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256485711}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: -0.068, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 125693600}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &263105479
 GameObject:
   m_ObjectHideFlags: 0
@@ -249,7 +279,7 @@ GameObject:
   - component: {fileID: 263105482}
   - component: {fileID: 263105481}
   - component: {fileID: 263105480}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Frost Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5295,7 +5325,7 @@ GameObject:
   - component: {fileID: 1037986301}
   - component: {fileID: 1037986300}
   - component: {fileID: 1037986299}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5588,7 +5618,9 @@ GameObject:
   - component: {fileID: 1098801239}
   - component: {fileID: 1098801241}
   - component: {fileID: 1098801240}
-  m_Layer: 0
+  - component: {fileID: 1098801243}
+  - component: {fileID: 1098801242}
+  m_Layer: 7
   m_Name: Bat GFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5680,6 +5712,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1098801242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098801238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68d37d941d993d146b50e90020cfa760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1098801243
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098801238}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.110111654}
+  serializedVersion: 2
+  m_Radius: 0.26154965
 --- !u!1 &1158693738
 GameObject:
   m_ObjectHideFlags: 0
@@ -6169,18 +6229,17 @@ GameObject:
   m_Component:
   - component: {fileID: 2141805543}
   - component: {fileID: 2141805542}
-  - component: {fileID: 2141805539}
   - component: {fileID: 2141805538}
   - component: {fileID: 2141805540}
   - component: {fileID: 2141805541}
   - component: {fileID: 2141805544}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Flying Enemy (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!50 &2141805538
 Rigidbody2D:
   serializedVersion: 4
@@ -6202,22 +6261,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!58 &2141805539
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2141805537}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!114 &2141805540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6251,7 +6294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13a025a59fff5b14aa120509a5532c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flyingAI: {fileID: 0}
+  maxHealth: 1
 --- !u!114 &2141805542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6324,9 +6367,21 @@ PrefabInstance:
       value: 1.55
       objectReference: {fileID: 0}
     - target: {fileID: 4306503415744537795, guid: a9375ee755b8df842b87f96a359801ba, type: 3}
+      propertyPath: attackPoint
+      value: 
+      objectReference: {fileID: 256485712}
+    - target: {fileID: 4306503415744537795, guid: a9375ee755b8df842b87f96a359801ba, type: 3}
+      propertyPath: attackRange
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4306503415744537795, guid: a9375ee755b8df842b87f96a359801ba, type: 3}
       propertyPath: spellPrefab1
       value: 
       objectReference: {fileID: 8350060131713736395, guid: 3b431676932a3304e954e7a5e4df7130, type: 3}
+    - target: {fileID: 4306503415744537795, guid: a9375ee755b8df842b87f96a359801ba, type: 3}
+      propertyPath: enemyLayers.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
     - target: {fileID: 4306503415744537798, guid: a9375ee755b8df842b87f96a359801ba, type: 3}
       propertyPath: m_Name
       value: RedMage

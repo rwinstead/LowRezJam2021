@@ -14,6 +14,10 @@ public class Spellcasting : MonoBehaviour
 
     private bool canCast = true;
 
+    public Transform attackPoint;
+    public float attackRange = .5f;
+    public LayerMask enemyLayers;
+
     private void Start()
     {
         SpellAnimationCallback.spellStarted += spellStartAnimation;
@@ -39,11 +43,25 @@ public class Spellcasting : MonoBehaviour
         if (Input.GetKeyDown("e") && movementC.m_Grounded)
         {
             anim.SetBool("Attacking", true);
+            Attack();
         }
 
         if (Input.GetKeyDown("e") && !movementC.m_Grounded)
         {
             anim.SetBool("JumpAttack", true);
+            Attack();
+        }
+
+    }
+
+    void Attack()
+    {
+       Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+
+        foreach(Collider2D enemy in hitEnemies)
+        {
+            Debug.Log("Hit " + enemy.name);
+            enemy.gameObject.GetComponent<EnemyHitManager>().TakeDamage(1);
         }
 
     }
@@ -59,4 +77,12 @@ public class Spellcasting : MonoBehaviour
         anim.SetBool("BlueRuneCast", false);
         canCast = true;
     }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null) return;
+
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+
 }
