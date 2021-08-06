@@ -15,21 +15,12 @@ public class RuneBlueEffect : MonoBehaviour
 
     }
 
-    public void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            Debug.Log("enemy in freeze");
-            Destroy(collision.gameObject);
-        }
-    }
-
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if( collision.gameObject.CompareTag("Enemy"))
+        if(collision.gameObject.CompareTag("Enemy"))
         {
-            Debug.Log("enemy in freeze");
-            Destroy(collision.gameObject);
+            Debug.Log("Enemy hit with freeze");
+            collision.gameObject.GetComponent<EnemyHitBySpell>().FreezeEnemy();
         }
     }
 
