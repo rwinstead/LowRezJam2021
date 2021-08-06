@@ -18,6 +18,8 @@ public class Spellcasting : MonoBehaviour
     public float attackRange = .5f;
     public LayerMask enemyLayers;
 
+    public ParticleSystem attackParticles;
+
     private void Start()
     {
         SpellAnimationCallback.spellStarted += spellStartAnimation;
@@ -56,6 +58,9 @@ public class Spellcasting : MonoBehaviour
 
     void Attack()
     {
+
+        attackParticles.Play();
+
        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
         foreach(Collider2D enemy in hitEnemies)

@@ -8,7 +8,7 @@ public class FlyingEnemyAI : MonoBehaviour
 
     public Transform target;
     public float speed = 200f;
-    public float nextWaypointDistance = 3f;
+    public float nextWaypointDistance = .25f;
 
     Path path;
     int currentWaypoint = 0;
@@ -25,11 +25,12 @@ public class FlyingEnemyAI : MonoBehaviour
 
     public bool canMove = false;
     private bool freezing = false;
-    private bool playerSeen = false;
 
     public Animator batAnim;
 
     public GameObject frostParticles;
+
+    public Collider2D col;
 
 
     // Start is called before the first frame update
@@ -127,16 +128,6 @@ public class FlyingEnemyAI : MonoBehaviour
         canMove = true;
         enemySprite.color = new Color(1, 1, 1, 1);
         frostParticles.SetActive(false);
-    }
-
-    public void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player") && !playerSeen)
-        {
-            playerSeen = true;
-            canMove = true;
-            batAnim.SetBool("PlayerInRange", true);
-        }
     }
 
 }
