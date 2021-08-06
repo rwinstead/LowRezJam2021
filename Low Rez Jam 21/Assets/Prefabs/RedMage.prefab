@@ -184,7 +184,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 4306503415744537852}
-  runSpeed: 50
+  runSpeed: 18
+  climbSpeed: 12
   canMove: 1
   anim: {fileID: 4306503415744537851}
 --- !u!114 &4306503415744537852
@@ -205,13 +206,20 @@ MonoBehaviour:
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 2147483647
+    m_Bits: 8
+  m_WhatIsLadder:
+    serializedVersion: 2
+    m_Bits: 1024
   m_GroundCheck: {fileID: 4306503415181610245}
   m_CeilingCheck: {fileID: 4306503415463488156}
   m_CrouchDisableCollider: {fileID: 0}
   m_Grounded: 0
+  m_Laddered: 0
   anim: {fileID: 4306503415744537851}
   OnLandEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnLadderEvent:
     m_PersistentCalls:
       m_Calls: []
   OnCrouchEvent:

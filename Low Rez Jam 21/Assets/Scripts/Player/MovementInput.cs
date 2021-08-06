@@ -10,6 +10,10 @@ public class MovementInput : MonoBehaviour
 
     float horizontalMove = 0f;
 
+    public float climbSpeed = 20f;
+
+    float verticalMove = 0f;
+
     bool jump = false;
 
     public bool canMove = true;
@@ -34,6 +38,8 @@ public class MovementInput : MonoBehaviour
         if (canMove)
         {
             horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+            
+            verticalMove = Input.GetAxisRaw("Vertical") * climbSpeed;
 
             if (Input.GetButtonDown("Jump"))
             {
@@ -44,6 +50,8 @@ public class MovementInput : MonoBehaviour
         else
         {
             horizontalMove = 0f;
+            
+            verticalMove = 0f;
         }
 
 
@@ -60,7 +68,7 @@ public class MovementInput : MonoBehaviour
 
     void FixedUpdate()
     {
-        controller.Move(horizontalMove * Time.deltaTime, false, jump);
+        controller.Move(horizontalMove * Time.deltaTime, verticalMove * Time.deltaTime, false, jump);
         jump = false;
     }
 
