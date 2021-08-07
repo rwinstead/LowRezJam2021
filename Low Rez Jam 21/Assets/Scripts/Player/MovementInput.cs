@@ -12,7 +12,7 @@ public class MovementInput : MonoBehaviour
 
     public float climbSpeed = 20f;
 
-    float verticalMove = 0f;
+    public float verticalMove = 0f;
 
     bool jump = false;
 

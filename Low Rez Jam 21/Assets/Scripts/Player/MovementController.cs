@@ -21,6 +21,7 @@ public class MovementController : MonoBehaviour
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
 	public Animator anim;
+	public MovementInput moveInput;
 
 	[Header("Events")]
 	[Space]
@@ -35,6 +36,8 @@ public class MovementController : MonoBehaviour
 
 	public BoolEvent OnCrouchEvent;
 	private bool m_wasCrouching = false;
+
+	public float yInputAbs = 0f;
 
 	private void Awake()
 	{
@@ -51,8 +54,10 @@ public class MovementController : MonoBehaviour
 
 	private void Update()
 	{
+		yInputAbs = Mathf.Abs(moveInput.verticalMove);
 		anim.SetFloat("Y_Speed", m_Rigidbody2D.velocity.y);
 		anim.SetBool("Grounded", m_Grounded);
+		anim.SetFloat("Y_Input", yInputAbs);
 	}
 
 	private void FixedUpdate()
@@ -61,6 +66,7 @@ public class MovementController : MonoBehaviour
 		bool wasLaddered = m_Laddered;
 		m_Grounded = false;
 		m_Laddered = false;
+		anim.SetBool("OnLadder", false);
 
 		// The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
 		// This can be done using layers instead but Sample Assets will not overwrite your project settings.
@@ -70,6 +76,8 @@ public class MovementController : MonoBehaviour
 			if (colliders[i].gameObject != gameObject)
 			{
 				m_Grounded = true;
+
+				anim.SetBool("Jumping", false);
 				if (!wasGrounded)
 					OnLandEvent.Invoke();
 			}
@@ -80,10 +88,16 @@ public class MovementController : MonoBehaviour
 		{
 			if (colliders[i].gameObject != gameObject)
 			{
-				m_Laddered = true;
-				if (!wasLaddered)
-					m_Rigidbody2D.gravityScale = 0f;
+				if(Mathf.Abs(moveInput.verticalMove) > 0.01f)
+                {
+					m_Laddered = true;
+					anim.SetBool("OnLadder", true);
+					if (!wasLaddered)
+						m_Rigidbody2D.gravityScale = 0f;
 					OnLadderEvent.Invoke();
+				}
+				
+
 			}
 		}
 
@@ -171,6 +185,8 @@ public class MovementController : MonoBehaviour
 			// Add a vertical force to the player.
 			m_Grounded = false;
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+
+			anim.SetBool("Jumping", true);
 		}
 	}
 
