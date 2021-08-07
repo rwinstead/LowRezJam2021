@@ -503,6 +503,27 @@ TextureImporter:
   - first:
       213: 8604713944700008827
     second: Ladder1-short
+  - first:
+      213: 1622126197526548158
+    second: Ladder1-med
+  - first:
+      213: 6791037693438551258
+    second: Arch-left
+  - first:
+      213: -3491879075139976083
+    second: Arch_right
+  - first:
+      213: 6618536433716160145
+    second: Arch_ruins_1-left
+  - first:
+      213: -5019926650085410387
+    second: Arch_Ruins_1-right
+  - first:
+      213: -9150264374870717147
+    second: Chest_yellow_open-bottom
+  - first:
+      213: -8342122858253747706
+    second: Chest_yellow_open-top
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1888,9 +1909,9 @@ TextureImporter:
       name: GroundCover_green
       rect:
         serializedVersion: 2
-        x: 36
+        x: 42
         y: 193
-        width: 126
+        width: 120
         height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1930,9 +1951,9 @@ TextureImporter:
       name: GroundCover_red
       rect:
         serializedVersion: 2
-        x: 36
+        x: 42
         y: 217
-        width: 126
+        width: 120
         height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2056,9 +2077,9 @@ TextureImporter:
       name: GroundCover_purple
       rect:
         serializedVersion: 2
-        x: 35
+        x: 41
         y: 168
-        width: 126
+        width: 120
         height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -5996,6 +6017,153 @@ TextureImporter:
       bones: []
       spriteID: b79b1b33eb51a6770800000000000000
       internalID: 8604713944700008827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ladder1-med
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 108
+        width: 10
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebecc68ae23f28610800000000000000
+      internalID: 1622126197526548158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arch-left
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 163
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad461bd3dcc9e3e50800000000000000
+      internalID: 6791037693438551258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arch_right
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 163
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6489af5b7a5a8fc0800000000000000
+      internalID: -3491879075139976083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arch_ruins_1-left
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 163
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196e1a8e1d3c9db50800000000000000
+      internalID: 6618536433716160145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arch_Ruins_1-right
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 163
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da97427fe43a55ab0800000000000000
+      internalID: -5019926650085410387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_yellow_open-bottom
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 871
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d4beef70bb30180800000000000000
+      internalID: -9150264374870717147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_yellow_open-top
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 875
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a7e197573da3c80800000000000000
+      internalID: -8342122858253747706
       vertices: []
       indices: 
       edges: []

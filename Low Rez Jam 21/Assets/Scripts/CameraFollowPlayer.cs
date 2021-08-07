@@ -8,11 +8,6 @@ public class CameraFollowPlayer : MonoBehaviour
     public Vector3 offset = Vector3.zero;
     private float cameraOffsetY = 2.25f;
     
-
-    private float platformOffset = 0f;
-
-
-    private MovementController Controller;
     private float cameraTargetY;
     
     public float transitionSpeedY = .4f;
@@ -23,7 +18,6 @@ public class CameraFollowPlayer : MonoBehaviour
     
     void Start()
     {
-        Controller = player.GetComponent<MovementController>();
         offset.z = -8f;
         cameraTargetY = player.transform.position.y + cameraOffsetY;
     }
@@ -31,9 +25,11 @@ public class CameraFollowPlayer : MonoBehaviour
     void Update()
     {
 
+        //If player has reached top allowable space adjust camera Y position
         if((transform.position.y - player.transform.position.y) > cameraOffsetY){
             cameraTargetY = player.transform.position.y + cameraOffsetY;
         }
+        //If player has reached bottom allowable space adjust camera Y position
         else if ((player.transform.position.y - transform.position.y) > cameraOffsetY){
             cameraTargetY = player.transform.position.y - cameraOffsetY;
         }
@@ -41,17 +37,5 @@ public class CameraFollowPlayer : MonoBehaviour
 
         transform.position = new Vector3(player.transform.position.x + offset.x, cameraTargetY, offset.z);
 
-        /*
-        if (Controller.m_Grounded)
-        {
-            platformOffset = player.transform.position.y;
-        }
-
-        targetY = new Vector2(transform.position.x, platformOffset + offset.y);
-        targetYThisUpdate = Vector2.MoveTowards(transform.position, targetY, (transitionSpeedY * Time.deltaTime));
-
-        transform.position = new Vector3(player.transform.position.x + offset.x,targetYThisUpdate.y, offset.z);
-
-    */
     }
 }
