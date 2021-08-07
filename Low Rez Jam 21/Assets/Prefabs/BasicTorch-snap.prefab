@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3501845864624563411}
   m_Layer: 0
-  m_Name: BasicTorch
+  m_Name: BasicTorch-snap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
