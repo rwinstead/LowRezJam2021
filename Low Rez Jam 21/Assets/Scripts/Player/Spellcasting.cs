@@ -20,16 +20,24 @@ public class Spellcasting : MonoBehaviour
 
     public ParticleSystem attackParticles;
 
+    bool canAttack = true;
+
     private void Start()
     {
         SpellAnimationCallback.spellStarted += spellStartAnimation;
         SpellAnimationCallback.spellEnded += spellEndAnimation;
+
+        AttackAnimationCallback.attackStarted += attackStartAnimation;
+        AttackAnimationCallback.attackEnded += attackEndAnimation;
     }
 
     private void OnDestroy()
     {
         SpellAnimationCallback.spellStarted -= spellStartAnimation;
         SpellAnimationCallback.spellEnded -= spellEndAnimation;
+
+        AttackAnimationCallback.attackStarted -= attackStartAnimation;
+        AttackAnimationCallback.attackEnded -= attackEndAnimation;
     }
 
     void Update()
@@ -42,13 +50,13 @@ public class Spellcasting : MonoBehaviour
         anim.SetBool("Attacking", false);
         anim.SetBool("JumpAttack", false);
 
-        if (Input.GetKeyDown("e") && movementC.m_Grounded)
+        if (Input.GetKeyDown("e") && movementC.m_Grounded && canAttack)
         {
             anim.SetBool("Attacking", true);
             Attack();
         }
 
-        if (Input.GetKeyDown("e") && !movementC.m_Grounded)
+        if (Input.GetKeyDown("e") && !movementC.m_Grounded && canAttack)
         {
             anim.SetBool("JumpAttack", true);
             Attack();
@@ -81,6 +89,16 @@ public class Spellcasting : MonoBehaviour
     {
         anim.SetBool("BlueRuneCast", false);
         canCast = true;
+    }
+
+    void attackStartAnimation()
+    {
+        canAttack = false;
+    }
+
+    void attackEndAnimation()
+    {
+        canAttack = true;
     }
 
     private void OnDrawGizmosSelected()
