@@ -101,7 +101,7 @@ public class Spellcasting : MonoBehaviour
         canAttack = true;
     }
 
-    private void OnDrawGizmosSelected()
+    public void OnDrawGizmosSelected()
     {
         if (attackPoint == null) return;
 

@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class EnemyHitManager : MonoBehaviour
 {
-    FlyingEnemyAI flyingAI;
 
     public int maxHealth = 1;
     int currentHealth;
 
+    public bool isFrozen = false;
+
     private void Start()
     {
-        flyingAI = GetComponent<FlyingEnemyAI>();
+
         currentHealth = maxHealth;
     }
 
@@ -33,7 +34,7 @@ public class EnemyHitManager : MonoBehaviour
 
     public void FreezeEnemy()
     {
-        flyingAI.Frozen();
-        Debug.Log("I WOrk?");
+        isFrozen = true;
+        Debug.Log("I am froezn now");
     }
 }

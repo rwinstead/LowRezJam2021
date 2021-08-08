@@ -524,6 +524,12 @@ TextureImporter:
   - first:
       213: -8342122858253747706
     second: Chest_yellow_open-top
+  - first:
+      213: -2162680730843355570
+    second: Knight_attack1
+  - first:
+      213: -1021368688591065164
+    second: Knight_attack2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -6135,7 +6141,7 @@ TextureImporter:
         width: 10
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6156,7 +6162,7 @@ TextureImporter:
         width: 10
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6164,6 +6170,48 @@ TextureImporter:
       bones: []
       spriteID: 60a7e197573da3c80800000000000000
       internalID: -8342122858253747706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_attack1
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 746
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46ef7b655d9cf1e0800000000000000
+      internalID: -2162680730843355570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_attack2
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 746
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfa2d3d69e53d1f0800000000000000
+      internalID: -1021368688591065164
       vertices: []
       indices: 
       edges: []

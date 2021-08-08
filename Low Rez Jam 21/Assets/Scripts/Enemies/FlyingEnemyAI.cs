@@ -32,6 +32,8 @@ public class FlyingEnemyAI : MonoBehaviour
 
     public Collider2D col;
 
+    public EnemyHitManager hitManager;
+
 
     // Start is called before the first frame update
     void Start()
@@ -55,6 +57,14 @@ public class FlyingEnemyAI : MonoBehaviour
         {
             path = p;
             currentWaypoint = 0;
+        }
+    }
+
+    private void Update()
+    {
+        if (hitManager.isFrozen)
+        {
+            Frozen();
         }
     }
 
@@ -128,6 +138,7 @@ public class FlyingEnemyAI : MonoBehaviour
         canMove = true;
         enemySprite.color = new Color(1, 1, 1, 1);
         frostParticles.SetActive(false);
+        hitManager.isFrozen = false;
     }
 
 }
