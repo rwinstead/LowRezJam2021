@@ -5776,7 +5776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68d37d941d993d146b50e90020cfa760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knockbackForce: 10
+  knockbackForce: 3.75
   parent: {fileID: 2141805537}
 --- !u!1 &1158693738
 GameObject:

@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using System.Collections;
 
 public class MovementController : MonoBehaviour
 {
@@ -22,6 +23,8 @@ public class MovementController : MonoBehaviour
 	private Vector3 m_Velocity = Vector3.zero;
 	public Animator anim;
 	public MovementInput moveInput;
+
+	public bool beingKnockedBack = false;
 
 	[Header("Events")]
 	[Space]
@@ -164,7 +167,10 @@ public class MovementController : MonoBehaviour
 			}
 
 			// And then smoothing it out and applying it to the character
-			m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
+			if (!beingKnockedBack)
+			{
+				m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
+			}
 
 			// If the input is moving the player right and the player is facing left...
 			if (xMove > 0 && !m_FacingRight)
@@ -190,7 +196,6 @@ public class MovementController : MonoBehaviour
 		}
 	}
 
-
 	private void Flip()
 	{
 		// Switch the way the player is labelled as facing.
@@ -201,4 +206,25 @@ public class MovementController : MonoBehaviour
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
+
+	public void StartKnockBack(Vector2 force)
+	{
+		StartCoroutine("KnockBack", force);
+	}
+
+	public IEnumerator KnockBack(Vector2 force)
+	{
+		if (!beingKnockedBack)
+		{
+			Debug.Log(force);
+			beingKnockedBack = true;
+			m_Rigidbody2D.velocity = Vector2.zero;
+			m_Rigidbody2D.AddForce(force, ForceMode2D.Impulse);
+			yield return new WaitForSeconds(.4f);
+			beingKnockedBack = false;
+		}
+	}
+
+
+
 }

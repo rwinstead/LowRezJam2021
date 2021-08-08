@@ -19,7 +19,11 @@ public class EnemyDealDmg : MonoBehaviour
             player.GetComponent<Health>().takeDamage();
 
             direction = (player.transform.position - parent.transform.position).normalized;
-            player.gameObject.GetComponent<Rigidbody2D>().AddForce(direction * knockbackForce, ForceMode2D.Impulse);
+            Debug.Log(direction);
+
+            player.GetComponent<MovementController>().StartKnockBack(direction * knockbackForce);
+
+            //player.GetComponent<Rigidbody2D>().AddForce(direction * knockbackForce, ForceMode2D.Impulse);
             parent.GetComponent<Rigidbody2D>().AddForce(-direction * knockbackForce, ForceMode2D.Impulse);
         }
     }
