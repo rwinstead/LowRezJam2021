@@ -21,8 +21,8 @@ TagManager:
   - Ladder
   - Player
   - 
-  - 
-  - 
+  - EnemyTracking
+  - Waypoint
   - 
   - 
   - 
