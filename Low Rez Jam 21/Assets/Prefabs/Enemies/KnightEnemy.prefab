@@ -173,6 +173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 3
   isFrozen: 0
+  spriteRend: {fileID: 7640273556164129593}
 --- !u!61 &7640273555618455753
 BoxCollider2D:
   m_ObjectHideFlags: 0

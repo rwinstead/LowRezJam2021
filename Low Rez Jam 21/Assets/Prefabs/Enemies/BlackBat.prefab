@@ -320,6 +320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 1
   isFrozen: 0
+  spriteRend: {fileID: 2678108365528133450}
 --- !u!58 &2678108366439011568
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -89,7 +89,7 @@ public class PatrolAI : MonoBehaviour
     {
         freezing = true;
         canMove = false;
-        enemySprite.color = new Color(0, 0, 1, 1);
+        enemySprite.color = new Color(0.050f, 0.725f, 0.992f, 1);
         frostParticles.SetActive(true);
         anim.speed = 0;
 

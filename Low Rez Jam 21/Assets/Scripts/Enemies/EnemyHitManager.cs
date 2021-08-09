@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class EnemyHitManager : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class EnemyHitManager : MonoBehaviour
     int currentHealth;
 
     public bool isFrozen = false;
+
+    public SpriteRenderer spriteRend;
+    public ParticleSystem deathParticles;
 
     private void Start()
     {
@@ -22,19 +26,32 @@ public class EnemyHitManager : MonoBehaviour
 
         if(currentHealth <= 0)
         {
-            Die();
+           StartCoroutine("Die");
         }
 
-    }
+        StartCoroutine("FlashRed");
 
-    void Die()
-    {
-        Destroy(gameObject);
     }
 
     public void FreezeEnemy()
     {
         isFrozen = true;
-        Debug.Log("I am froezn now");
+        //Debug.Log("I am froezn now");
+    }
+
+    public IEnumerator Die()
+    {
+        deathParticles.Play();
+        spriteRend.color = new Color(0,0,0, 1);
+        yield return new WaitForSeconds(.25f);
+        Destroy(gameObject);
+    }
+
+    public IEnumerator FlashRed()
+    {
+        Color currColor = spriteRend.color;
+        spriteRend.color = new Color(0.992f, 0.050f, 0.211f, 1);
+        yield return new WaitForSeconds(.075f);
+        spriteRend.color = currColor;
     }
 }
