@@ -26,6 +26,9 @@ public class MovementController : MonoBehaviour
 
 	public bool beingKnockedBack = false;
 
+	BoxCollider2D lastPlatformDeactivated = null;
+	bool insidePlatformDetector = false;
+
 	[Header("Events")]
 	[Space]
 
@@ -61,6 +64,7 @@ public class MovementController : MonoBehaviour
 		anim.SetFloat("Y_Speed", m_Rigidbody2D.velocity.y);
 		anim.SetBool("Grounded", m_Grounded);
 		anim.SetFloat("Y_Input", yInputAbs);
+		insidePlatformDetector = false;
 	}
 
 	private void FixedUpdate()
@@ -117,10 +121,15 @@ public class MovementController : MonoBehaviour
 		if (!crouch)
 		{
 			// If the character has a ceiling preventing them from standing up, keep them crouching
-			if (Physics2D.OverlapCircle(m_CeilingCheck.position, k_CeilingRadius, m_WhatIsGround))
-			{
-				crouch = true;
-			}
+			//Collider2D platformCol = Physics2D.OverlapCircle(m_CeilingCheck.position, k_CeilingRadius, m_WhatIsGround);
+			//if(platformCol != null)
+			//{
+			//	if (platformCol.gameObject.CompareTag("Platform"))
+			//	{
+			//		Debug.Log("reneabling platform col");
+			//		platformCol.gameObject.GetComponent<BoxCollider2D>().enabled = true;
+			//	}
+			//}
 		}
 
 		//only control the player if grounded or airControl is turned on
@@ -225,6 +234,29 @@ public class MovementController : MonoBehaviour
 		}
 	}
 
+	private void OnCollisionStay2D(Collision2D collision)
+	{
+		if (m_Laddered && collision.gameObject.CompareTag("Platform") && moveInput.verticalMove < 0)
+		{
+			lastPlatformDeactivated = collision.gameObject.GetComponent<BoxCollider2D>();
+			lastPlatformDeactivated.enabled = false;
+		}
+	}
 
+	private void OnTriggerStay2D(Collider2D collision)
+	{
+		if (collision.gameObject.CompareTag("PlatformDetector"))
+		{
+			insidePlatformDetector = true;
+		}
+	}
+
+	private void OnTriggerExit2D(Collider2D collision)
+	{
+		if (collision.gameObject.CompareTag("PlatformDetector") && lastPlatformDeactivated != null && !insidePlatformDetector)
+		{
+			lastPlatformDeactivated.enabled = true;
+		}
+	}
 
 }

@@ -75,6 +75,7 @@ MonoBehaviour:
   patrolai: {fileID: 7640273555618455754}
   attackPoint: {fileID: 7640273555907547512}
   attackRange: 0.4
+  knockbackForce: 20
   playerLayer:
     serializedVersion: 2
     m_Bits: 2048

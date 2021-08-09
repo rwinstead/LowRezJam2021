@@ -16,8 +16,17 @@ public class KnightAttackInRange : MonoBehaviour
 
     public float attackRange = 1f;
 
+    public float knockbackForce = 3f;
+
+    GameObject parent;
+
 
     public LayerMask playerLayer;
+
+    private void Start()
+    {
+        parent = transform.parent.gameObject;
+    }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
@@ -42,9 +51,13 @@ public class KnightAttackInRange : MonoBehaviour
 
         if(hitPlayer != null)
         {
-            Debug.Log("Hit " + hitPlayer.gameObject.name);
+            //Debug.Log("Hit " + hitPlayer.gameObject.name);
+
+            Vector2 direction = (hitPlayer.transform.position - parent.transform.position).normalized;
 
             hitPlayer.gameObject.GetComponent<Health>().takeDamage();
+            hitPlayer.GetComponent<Rigidbody2D>().AddForce(direction * knockbackForce, ForceMode2D.Impulse);
+
         }
 
         
