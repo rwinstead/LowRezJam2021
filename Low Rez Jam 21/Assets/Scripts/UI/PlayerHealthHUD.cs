@@ -19,13 +19,18 @@ public class PlayerHealthHUD : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Health.updatePlayerHealth += updatePlayerHealthHUD;
     }
 
     // Update is called once per frame
     void Update()
     {
-        currentHealth = Player.GetComponent<Health>().currentHealth;
+        
+    }
+
+    void updatePlayerHealthHUD(int health)
+    {
+        currentHealth = health;
         if (currentHealth != lastHealth)
         {
             heart1.GetComponent<Image>().sprite = emptyHeart;

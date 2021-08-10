@@ -10,7 +10,7 @@ public class Checkpoint : MonoBehaviour
     
     void Start()
     {
-        
+        Spawn.updateCheckpoint += resetCheckpointAnimation;
     }
 
     // Update is called once per frame
@@ -27,5 +27,11 @@ public class Checkpoint : MonoBehaviour
             checkpointAnim.SetTrigger("checkpoint_reached");
             hasTriggered = true;
         }
+    }
+
+    public void resetCheckpointAnimation()
+    {
+        hasTriggered = false;
+        checkpointAnim.SetTrigger("checkpoint_reset");
     }
 }

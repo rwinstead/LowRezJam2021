@@ -10,6 +10,7 @@ TagManager:
   - Platform
   - PlatformDetector
   - Boundary
+  - Checkpoint
   layers:
   - Default
   - TransparentFX

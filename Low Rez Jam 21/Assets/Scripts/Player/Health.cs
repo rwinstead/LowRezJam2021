@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +13,9 @@ public class Health : MonoBehaviour
 
     SpriteRenderer spriteRend;
     bool blinkingWhite = false;
+
+    public static Action<int> updatePlayerHealth;
+    public static Action playerRespawn;
 
 
 
@@ -31,6 +35,7 @@ public class Health : MonoBehaviour
             currentHealth = (currentHealth - amt);
             Debug.Log("Ouch. Took " + amt + " Damage. Current Health: " + currentHealth);
             lastTimeDamaged = Time.time;
+            updatePlayerHealth?.Invoke(currentHealth);
         }
         else
         {
@@ -42,7 +47,8 @@ public class Health : MonoBehaviour
         if (currentHealth <= 0)
         {
             // die
-     
+            playerRespawn?.Invoke();
+            healDamage(99);
         }
     }
 
@@ -63,7 +69,9 @@ public class Health : MonoBehaviour
         if(currentHealth < maxHealth)
         {
             currentHealth = (currentHealth + amt);
+            if (currentHealth > maxHealth) { currentHealth = maxHealth; }
             Debug.Log("Yay! Healed " + amt + " Damage. Current Health: " + currentHealth);
+            updatePlayerHealth?.Invoke(currentHealth);
         }
         
         
