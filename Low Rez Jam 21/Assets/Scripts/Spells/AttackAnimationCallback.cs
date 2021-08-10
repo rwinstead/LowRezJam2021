@@ -9,6 +9,7 @@ public class AttackAnimationCallback : StateMachineBehaviour
 
     public static Action attackEnded;
     public static Action attackStarted;
+
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         attackStarted?.Invoke();

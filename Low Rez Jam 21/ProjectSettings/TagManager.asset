@@ -9,6 +9,7 @@ TagManager:
   - Waypoint
   - Platform
   - PlatformDetector
+  - Boundary
   layers:
   - Default
   - TransparentFX
