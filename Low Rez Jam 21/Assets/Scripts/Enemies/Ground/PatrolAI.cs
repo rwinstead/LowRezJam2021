@@ -36,6 +36,11 @@ public class PatrolAI : MonoBehaviour
         {
             Frozen();
         }
+
+        if(hitManager.currentHealth <= 0)
+        {
+            canMove = false;
+        }
     }
 
     // Update is called once per frame

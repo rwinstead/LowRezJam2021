@@ -7,7 +7,7 @@ public class EnemyHitManager : MonoBehaviour
 {
 
     public int maxHealth = 1;
-    int currentHealth;
+    public int currentHealth;
 
     public bool isFrozen = false;
 
