@@ -5065,7 +5065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spellPrefab1: {fileID: 8350060131713736395, guid: 3b431676932a3304e954e7a5e4df7130, type: 3}
   spellPrefab2: {fileID: 8350060131713736395, guid: 02e980ddda3d4de44b2660797125936f, type: 3}
-  spellPrefab3: {fileID: 8350060131713736395, guid: 02e980ddda3d4de44b2660797125936f, type: 3}
+  spellPrefab3: {fileID: 8350060131713736395, guid: 698a91c0c09be78468855c0f2b420b49, type: 3}
   offset1: {x: 0, y: 1.55, z: 0}
   movementC: {fileID: 4306503415744537852}
   anim: {fileID: 4306503415744537851}

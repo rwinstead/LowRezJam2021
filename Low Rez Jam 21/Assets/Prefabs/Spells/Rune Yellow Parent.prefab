@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6806998606576814391}
   - component: {fileID: 6550143201913935481}
+  - component: {fileID: 4373254466256773387}
   m_Layer: 0
   m_Name: Lightning4
   m_TagString: Untagged
@@ -63,6 +64,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8749366, y: 12.710711}
   m_EdgeRadius: 0
+--- !u!114 &4373254466256773387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371156438085535354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3558f5cf3dc743141a6d09fa1744ac16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &413352690038186593
 GameObject:
   m_ObjectHideFlags: 0
@@ -794,6 +807,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2155816605810271355}
   - component: {fileID: 1498642306227098513}
+  - component: {fileID: 7527045938104044392}
   m_Layer: 0
   m_Name: Lightning3
   m_TagString: Untagged
@@ -847,6 +861,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8749366, y: 12.710711}
   m_EdgeRadius: 0
+--- !u!114 &7527045938104044392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2822531030425764815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3558f5cf3dc743141a6d09fa1744ac16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2985542742084784247
 GameObject:
   m_ObjectHideFlags: 0
@@ -1269,6 +1295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5029168689510850420}
   - component: {fileID: 6054230881576764994}
+  - component: {fileID: 4521340395369677522}
   m_Layer: 0
   m_Name: Lightning1
   m_TagString: Untagged
@@ -1322,6 +1349,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8749366, y: 12.716694}
   m_EdgeRadius: 0
+--- !u!114 &4521340395369677522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856879535722998926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3558f5cf3dc743141a6d09fa1744ac16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5217778301293911508
 GameObject:
   m_ObjectHideFlags: 0
@@ -1950,6 +1989,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1701843776262242922}
   - component: {fileID: 3687274510430648970}
+  - component: {fileID: 6421631058604061829}
   m_Layer: 0
   m_Name: Lightning2
   m_TagString: Untagged
@@ -2003,6 +2043,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8749366, y: 12.710711}
   m_EdgeRadius: 0
+--- !u!114 &6421631058604061829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6284480758991039931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3558f5cf3dc743141a6d09fa1744ac16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6633991271188755964
 GameObject:
   m_ObjectHideFlags: 0
