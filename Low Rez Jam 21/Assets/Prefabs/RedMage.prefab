@@ -5064,6 +5064,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spellPrefab1: {fileID: 8350060131713736395, guid: 3b431676932a3304e954e7a5e4df7130, type: 3}
+  spellPrefab2: {fileID: 8350060131713736395, guid: 02e980ddda3d4de44b2660797125936f, type: 3}
+  spellPrefab3: {fileID: 8350060131713736395, guid: 02e980ddda3d4de44b2660797125936f, type: 3}
   offset1: {x: 0, y: 1.55, z: 0}
   movementC: {fileID: 4306503415744537852}
   anim: {fileID: 4306503415744537851}
@@ -5073,6 +5075,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   attackParticles: {fileID: 1637860447}
+  blueRuneUnlocked: 0
+  greenRuneUnlocked: 0
+  yellowRuneUnlocked: 0
+  activeRune: 0
 --- !u!114 &4306503415744537855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5210,7 +5216,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0035420358, y: -0.5244131}
+  m_Offset: {x: 0.0035420358, y: -0.3658989}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5221,7 +5227,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.51325184, y: 0.324414}
+  m_Size: {x: 0.51325184, y: 0.6414424}
   m_EdgeRadius: 0
 --- !u!58 &4306503415744537848
 CircleCollider2D:

@@ -7,6 +7,8 @@ public class Spellcasting : MonoBehaviour
 {
 
     public Transform spellPrefab1;
+    public Transform spellPrefab2;
+    public Transform spellPrefab3;
     public Vector3 offset1;
 
     public MovementController movementC;
@@ -31,6 +33,9 @@ public class Spellcasting : MonoBehaviour
     public int activeRune = 0;
     public static Action<int> activateRune;
 
+    bool[] spellsUnlocked = new bool[] { false, false, false };
+    Transform[] SpellPrefabs = new Transform[3];
+
     private void Start()
     {
         SpellAnimationCallback.spellStarted += spellStartAnimation;
@@ -40,6 +45,11 @@ public class Spellcasting : MonoBehaviour
         AttackAnimationCallback.attackEnded += attackEndAnimation;
 
         ChestOpenTrigger.unlockRune += unlockRuneCasting;
+
+        SpellPrefabs[0] = spellPrefab1;
+        SpellPrefabs[1] = spellPrefab2;
+        SpellPrefabs[2] = spellPrefab3;
+
     }
 
     private void OnDestroy()
@@ -49,13 +59,21 @@ public class Spellcasting : MonoBehaviour
 
         AttackAnimationCallback.attackStarted -= attackStartAnimation;
         AttackAnimationCallback.attackEnded -= attackEndAnimation;
+
+        ChestOpenTrigger.unlockRune -= unlockRuneCasting;
     }
 
     void Update()
     {
-        if (Input.GetKeyDown("q") && movementC.m_Grounded && canCast && blueRuneUnlocked)
+
+        if (Input.GetKeyDown(KeyCode.Tab))
         {
-            Instantiate(spellPrefab1, new Vector3(transform.position.x + offset1.x, transform.position.y + offset1.y, transform.position.z + offset1.z), transform.rotation);
+            ChangeActiveSpell();
+        }
+
+        if (Input.GetKeyDown("q") && movementC.m_Grounded && canCast && activeRune != 0)
+        {
+            CastActiveSpell();
         }
 
         anim.SetBool("Attacking", false);
@@ -73,6 +91,31 @@ public class Spellcasting : MonoBehaviour
             Attack();
         }
 
+    }
+
+    void ChangeActiveSpell()
+    {
+        if (activeRune == 0) return;
+
+        int index = activeRune - 1;
+
+        for(int i = 0; i < 3; i++)
+        {
+            index++;
+            if (index > 2) index = 0;
+            if (spellsUnlocked[index])
+            {
+                activeRune = index + 1;
+                activateRune?.Invoke(activeRune);
+                break;
+            }
+        }
+    }
+
+    void CastActiveSpell()
+    {
+        Transform ActiveSpell = SpellPrefabs[activeRune - 1];
+        Instantiate(ActiveSpell, new Vector3(transform.position.x + offset1.x, transform.position.y + offset1.y, transform.position.z + offset1.z), transform.rotation);
     }
 
     void Attack()
@@ -123,18 +166,21 @@ public class Spellcasting : MonoBehaviour
             blueRuneUnlocked = true;
             activeRune = 1;
             activateRune?.Invoke(1);
+            spellsUnlocked[0] = true;
         }
         if (RuneID == 2)
         {
             yellowRuneUnlocked = true;
             activeRune = 2;
             activateRune?.Invoke(2);
+            spellsUnlocked[1] = true;
         }
         if (RuneID == 3)
         {
             greenRuneUnlocked = true;
             activeRune = 3;
             activateRune?.Invoke(3);
+            spellsUnlocked[2] = true;
         }
     }
 
