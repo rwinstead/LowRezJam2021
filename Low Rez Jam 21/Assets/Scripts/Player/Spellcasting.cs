@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,6 +23,14 @@ public class Spellcasting : MonoBehaviour
 
     bool canAttack = true;
 
+
+    //RuneIDs   Blue -> 1  Yellow -> 2  Green -> 3
+    public bool blueRuneUnlocked = false;
+    public bool greenRuneUnlocked = false;
+    public bool yellowRuneUnlocked = false;
+    public int activeRune = 0;
+    public static Action<int> activateRune;
+
     private void Start()
     {
         SpellAnimationCallback.spellStarted += spellStartAnimation;
@@ -29,6 +38,8 @@ public class Spellcasting : MonoBehaviour
 
         AttackAnimationCallback.attackStarted += attackStartAnimation;
         AttackAnimationCallback.attackEnded += attackEndAnimation;
+
+        ChestOpenTrigger.unlockRune += unlockRuneCasting;
     }
 
     private void OnDestroy()
@@ -42,7 +53,7 @@ public class Spellcasting : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown("q") && movementC.m_Grounded && canCast)
+        if (Input.GetKeyDown("q") && movementC.m_Grounded && canCast && blueRuneUnlocked)
         {
             Instantiate(spellPrefab1, new Vector3(transform.position.x + offset1.x, transform.position.y + offset1.y, transform.position.z + offset1.z), transform.rotation);
         }
@@ -99,6 +110,32 @@ public class Spellcasting : MonoBehaviour
     void attackEndAnimation()
     {
         canAttack = true;
+    }
+
+    void unlockRuneCasting(int RuneID)
+    {
+        if (RuneID == -1)
+        {
+            Debug.Log("No ID passed");
+        }
+        if (RuneID == 1)
+        {
+            blueRuneUnlocked = true;
+            activeRune = 1;
+            activateRune?.Invoke(1);
+        }
+        if (RuneID == 2)
+        {
+            yellowRuneUnlocked = true;
+            activeRune = 2;
+            activateRune?.Invoke(2);
+        }
+        if (RuneID == 3)
+        {
+            greenRuneUnlocked = true;
+            activeRune = 3;
+            activateRune?.Invoke(3);
+        }
     }
 
     public void OnDrawGizmosSelected()

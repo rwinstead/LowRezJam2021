@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1060665499121179767, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
+  m_Sprite: {fileID: 237011564776941466, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 4239884981298505152}
   - component: {fileID: 4239884981298505155}
   m_Layer: 5
-  m_Name: ActiveSpell
+  m_Name: SpellSlot3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105,7 +105,7 @@ RectTransform:
   m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 4239884981560862374}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 351239280654541960, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
+  m_Sprite: {fileID: -2820842202816123216, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -185,6 +185,8 @@ RectTransform:
   - {fileID: 4239884982229019045}
   - {fileID: 4239884981030302678}
   - {fileID: 4239884982406610334}
+  - {fileID: 6758407095104293307}
+  - {fileID: 1406173899196591554}
   - {fileID: 4239884981298505153}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -271,9 +273,9 @@ MonoBehaviour:
   heart1: {fileID: 4239884982229019046}
   heart2: {fileID: 4239884981030302675}
   heart3: {fileID: 4239884982406610331}
-  fullHeart: {fileID: -1060665499121179767, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
-  halfHeart: {fileID: -5861779053685148922, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
-  emptyHeart: {fileID: -6065486026978432242, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
+  fullHeart: {fileID: 237011564776941466, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
+  halfHeart: {fileID: 8704889106630472682, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
+  emptyHeart: {fileID: -7568397922910753398, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
 --- !u!114 &4239884981560862375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -286,7 +288,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 096e0c3afb48cd4418e013bd47d1fd81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeSpellHUD: {fileID: 4239884981298505154}
+  spellSlot1: {fileID: 5030026766765581815}
+  spellSlot2: {fileID: 4412755436818478030}
+  spellSlot3: {fileID: 4239884981298505154}
+  blueActive: {fileID: 351239280654541960, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
+  blueInactive: {fileID: 819217207307216909, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
+  greenActive: {fileID: -4806480295005959394, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
+  greenInactive: {fileID: -8764759713149920554, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
+  yellowActive: {fileID: -3323495240146968084, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
+  yellowInactive: {fileID: -2820842202816123216, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
+  lockedSpell: {fileID: -2176729767455797171, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
   player: {fileID: 0}
 --- !u!1 &4239884982229019046
 GameObject:
@@ -353,7 +364,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1060665499121179767, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
+  m_Sprite: {fileID: 237011564776941466, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -428,9 +439,159 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1060665499121179767, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
+  m_Sprite: {fileID: 237011564776941466, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &4412755436818478030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1406173899196591554}
+  - component: {fileID: 6768380217619703490}
+  - component: {fileID: 2220452184669173914}
+  m_Layer: 5
+  m_Name: SpellSlot2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1406173899196591554
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4412755436818478030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4239884981560862374}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -7.000002, y: -1}
+  m_SizeDelta: {x: 20, y: 20}
+  m_Pivot: {x: 1, y: 1}
+--- !u!222 &6768380217619703490
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4412755436818478030}
+  m_CullTransparentMesh: 1
+--- !u!114 &2220452184669173914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4412755436818478030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -8764759713149920554, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &5030026766765581815
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6758407095104293307}
+  - component: {fileID: 3721174341826372743}
+  - component: {fileID: 3414412626218523767}
+  m_Layer: 5
+  m_Name: SpellSlot1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6758407095104293307
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5030026766765581815}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4239884981560862374}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -13.000002, y: -1}
+  m_SizeDelta: {x: 20, y: 20}
+  m_Pivot: {x: 1, y: 1}
+--- !u!222 &3721174341826372743
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5030026766765581815}
+  m_CullTransparentMesh: 1
+--- !u!114 &3414412626218523767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5030026766765581815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 351239280654541960, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1

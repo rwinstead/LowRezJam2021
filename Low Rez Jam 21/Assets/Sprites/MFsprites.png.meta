@@ -530,6 +530,21 @@ TextureImporter:
   - first:
       213: -1021368688591065164
     second: Knight_attack2
+  - first:
+      213: -2176729767455797171
+    second: RuneIcon_locked
+  - first:
+      213: -2820842202816123216
+    second: RuneIcon_yellow_inactive
+  - first:
+      213: 819217207307216909
+    second: Runeicon_blue_inactive
+  - first:
+      213: 6152658228244107540
+    second: Runeicon_red_inactive
+  - first:
+      213: -8764759713149920554
+    second: RuneIcon_green_inactive
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -6212,6 +6227,111 @@ TextureImporter:
       bones: []
       spriteID: 4bfa2d3d69e53d1f0800000000000000
       internalID: -1021368688591065164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIcon_locked
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 972
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4057ce2fc3bac1e0800000000000000
+      internalID: -2176729767455797171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIcon_yellow_inactive
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 972
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bee6b546fa5ad8d0800000000000000
+      internalID: -2820842202816123216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Runeicon_blue_inactive
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 972
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d082f6ba5b17e5b00800000000000000
+      internalID: 819217207307216909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Runeicon_red_inactive
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 972
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411dfd67f02a26550800000000000000
+      internalID: 6152658228244107540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIcon_green_inactive
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 972
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da5b048a715d5680800000000000000
+      internalID: -8764759713149920554
       vertices: []
       indices: 
       edges: []
