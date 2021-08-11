@@ -20,6 +20,15 @@ TextureImporter:
   - first:
       213: 2530076225999298545
     second: Lightning 6
+  - first:
+      213: 1419665795037050313
+    second: Orb_Blue2
+  - first:
+      213: -532724395333284715
+    second: Orb_Yellow2
+  - first:
+      213: -2985310612417310311
+    second: Orb_Green_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -242,6 +251,69 @@ TextureImporter:
       bones: []
       spriteID: 1ff59513ce2ac1320800000000000000
       internalID: 2530076225999298545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb_Blue2
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1012
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5b4f4d48aa3b310800000000000000
+      internalID: 1419665795037050313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb_Yellow2
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1011
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c89f42cf16b98f0800000000000000
+      internalID: -532724395333284715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb_Green_2
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1011
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99199aa90db0296d0800000000000000
+      internalID: -2985310612417310311
       vertices: []
       indices: 
       edges: []
