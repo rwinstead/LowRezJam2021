@@ -7208,7 +7208,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 459098981}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 57.8, y: 12.4, z: -53.63216}
+  m_LocalPosition: {x: 57.8, y: 12.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1398623021}
@@ -36824,12 +36824,13 @@ MonoBehaviour:
   bossBGLoop: {fileID: 0}
   creditsLoop: {fileID: 8300000, guid: dacc2d74db01c8d45a7c0548c072747e, type: 3}
   checkpointSFX: {fileID: 8300000, guid: 3c63d2e7ce6fd6e4692692ea7bfd62b8, type: 3}
-  deathSFX: {fileID: 8300000, guid: 8edf1c61415adf54eab40233f0b4531f, type: 3}
-  meleeSFX: {fileID: 0}
+  unlockRuneSFX: {fileID: 8300000, guid: d31b54cfb75eb4d4e8cf463dc43ebcb3, type: 3}
+  playerDeathSFX: {fileID: 8300000, guid: 8edf1c61415adf54eab40233f0b4531f, type: 3}
+  meleeSFX: {fileID: 8300000, guid: df5c33adce831c84490576a46eca981f, type: 3}
   takeDamageSFX: {fileID: 8300000, guid: d400577113fb9094184218f35293c9b1, type: 3}
-  blueSpellSFX: {fileID: 0}
-  greenSpellSFX: {fileID: 0}
-  yellowSpellSFX: {fileID: 0}
+  blueSpellSFX: {fileID: 8300000, guid: 512ab3d173d0b2c4190de8496964872f, type: 3}
+  greenSpellSFX: {fileID: 8300000, guid: 14756548f8a7952489015fd1a23e0b0e, type: 3}
+  yellowSpellSFX: {fileID: 8300000, guid: e949e48113c71cf41af4fa7c72ff1e39, type: 3}
 --- !u!82 &1733613365
 AudioSource:
   m_ObjectHideFlags: 0
@@ -38263,7 +38264,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004810015}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -22.265785, y: 18.210148, z: 0}
+  m_LocalPosition: {x: -22.265785, y: 18.210148, z: 27.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 539194037}

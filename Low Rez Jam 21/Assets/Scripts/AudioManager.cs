@@ -14,7 +14,9 @@ public class AudioManager : MonoBehaviour
     public AudioClip creditsLoop;
 
     public AudioClip checkpointSFX;
-    public AudioClip deathSFX;
+    public AudioClip unlockRuneSFX;
+
+    public AudioClip playerDeathSFX;
     public AudioClip meleeSFX;
     public AudioClip takeDamageSFX;
     public AudioClip blueSpellSFX;
@@ -26,18 +28,23 @@ public class AudioManager : MonoBehaviour
     void Start()
     {
         backgroundTrack.clip = mainBGLoop;
-        //backgroundTrack.Play();
+        backgroundTrack.Play();
 
         Checkpoint.playCheckpointSFX += playCheckpointSFXHandler;
+        ChestOpenTrigger.unlockRune += playUnlockRuneSFXHandler;
+
         Health.playTakeDamageSFX += playTakeDamageSFXHandler;
+        Health.playerRespawn += playDeathSFXHandler;
+
         Spellcasting.playMeleeSFX += playMeleeSFXHandler;
         Spellcasting.playSpellSFX += playSpellSFXHandler;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     void playCheckpointSFXHandler()
@@ -47,12 +54,17 @@ public class AudioManager : MonoBehaviour
 
     void playTakeDamageSFXHandler()
     {
-        SFXTrack.PlayOneShot(takeDamageSFX, 0.7f);
+        SFXTrack.PlayOneShot(takeDamageSFX, 1f);
+    }
+
+    void playDeathSFXHandler()
+    {
+        SFXTrack.PlayOneShot(playerDeathSFX, 0.6f);
     }
 
     void playMeleeSFXHandler()
     {
-        SFXTrack.PlayOneShot(meleeSFX, 0.5f);
+        SFXTrack.PlayOneShot(meleeSFX, 0.3f);
     }
 
     void playSpellSFXHandler(int runeID)
@@ -70,4 +82,10 @@ public class AudioManager : MonoBehaviour
             SFXTrack.PlayOneShot(greenSpellSFX, 0.5f);
         }
     }
+
+    void playUnlockRuneSFXHandler(int runeID)
+    {
+        SFXTrack.PlayOneShot(unlockRuneSFX, 0.5f);
+    }
+
 }
