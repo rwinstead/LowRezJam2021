@@ -10,7 +10,7 @@ public class Spawn : MonoBehaviour
     public Transform activeSpawn;
     public GameObject player;
 
-    public static Action updateCheckpoint;
+    public static Action<int> updateCheckpoint;
 
     
 
@@ -37,7 +37,7 @@ public class Spawn : MonoBehaviour
         {
             activeSpawn = collision.gameObject.transform;
             Debug.Log("Updating Respawn Point");
-            updateCheckpoint?.Invoke();
+            updateCheckpoint?.Invoke(collision.gameObject.GetComponent<Checkpoint>().CheckpointID);
 
         }
     }

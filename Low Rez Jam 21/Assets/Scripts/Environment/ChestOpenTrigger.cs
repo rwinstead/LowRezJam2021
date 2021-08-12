@@ -12,6 +12,7 @@ public class ChestOpenTrigger : MonoBehaviour
     Animator anim;
 
     public static Action<int> unlockRune;
+    public static Action<int> chestPlayerTooltip;
 
     private void Update()
     {
@@ -20,6 +21,15 @@ public class ChestOpenTrigger : MonoBehaviour
             anim.SetTrigger("OpenChest");
             chestOpened = true;
             unlockRune?.Invoke(RuneID);
+            chestPlayerTooltip?.Invoke(0);
+            if (RuneID == 2)
+            {
+                chestPlayerTooltip?.Invoke(2);
+            }
+            if (RuneID != 2)
+            {
+                chestPlayerTooltip?.Invoke(3);
+            }
         }
     }
 
@@ -34,6 +44,10 @@ public class ChestOpenTrigger : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             playerInsideTrigger = true;
+            if(RuneID == 2)
+            {
+                chestPlayerTooltip?.Invoke(1);
+            }
 
         }
     }
@@ -43,7 +57,7 @@ public class ChestOpenTrigger : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             playerInsideTrigger = false;
-
+                chestPlayerTooltip?.Invoke(0);
         }
     }
 

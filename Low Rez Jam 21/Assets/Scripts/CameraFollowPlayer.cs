@@ -6,7 +6,7 @@ public class CameraFollowPlayer : MonoBehaviour
 {
     public GameObject player;
     public Vector3 offset = Vector3.zero;
-    private float cameraOffsetY = 2.25f;
+    private float cameraOffsetY = 2.3f;
     
     private float cameraTargetY;
     
@@ -24,18 +24,19 @@ public class CameraFollowPlayer : MonoBehaviour
     
     void Update()
     {
-
+        cameraTargetY = player.transform.position.y + cameraOffsetY;
         //If player has reached top allowable space adjust camera Y position
-        if((transform.position.y - player.transform.position.y) > cameraOffsetY){
-            cameraTargetY = player.transform.position.y + cameraOffsetY;
+        if ((transform.position.y - player.transform.position.y) > cameraOffsetY){
+            //cameraTargetY = player.transform.position.y + cameraOffsetY;
         }
         //If player has reached bottom allowable space adjust camera Y position
         else if ((player.transform.position.y - transform.position.y) > cameraOffsetY){
-            cameraTargetY = player.transform.position.y - cameraOffsetY;
+            //cameraTargetY = player.transform.position.y - cameraOffsetY;
         }
 
 
-        transform.position = new Vector3(player.transform.position.x + offset.x, cameraTargetY, offset.z);
+        //transform.position = new Vector3(player.transform.position.x + offset.x, cameraTargetY, offset.z);
+        transform.position = new Vector3(player.transform.position.x + offset.x, player.transform.position.y + offset.y, offset.z);
 
     }
 }

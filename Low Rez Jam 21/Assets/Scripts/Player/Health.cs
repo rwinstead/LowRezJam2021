@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    public int maxHealth = 3;
+    public int maxHealth = 6;
     public int currentHealth;
 
     public float invincibleTime = 1f;
@@ -16,6 +16,7 @@ public class Health : MonoBehaviour
 
     public static Action<int> updatePlayerHealth;
     public static Action playerRespawn;
+    public static Action playTakeDamageSFX;
 
 
 
@@ -34,6 +35,7 @@ public class Health : MonoBehaviour
             StartCoroutine("FlashWhite");
             currentHealth = (currentHealth - amt);
             Debug.Log("Ouch. Took " + amt + " Damage. Current Health: " + currentHealth);
+            playTakeDamageSFX?.Invoke();
             lastTimeDamaged = Time.time;
             updatePlayerHealth?.Invoke(currentHealth);
         }

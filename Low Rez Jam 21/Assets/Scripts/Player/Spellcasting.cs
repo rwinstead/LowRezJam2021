@@ -25,6 +25,9 @@ public class Spellcasting : MonoBehaviour
 
     bool canAttack = true;
 
+    public static Action playMeleeSFX;
+    public static Action<int> playSpellSFX;
+
 
     //RuneIDs   Blue -> 1  Yellow -> 2  Green -> 3
     public bool blueRuneUnlocked = false;
@@ -116,6 +119,7 @@ public class Spellcasting : MonoBehaviour
     {
         Transform ActiveSpell = SpellPrefabs[activeRune - 1];
         Instantiate(ActiveSpell, new Vector3(transform.position.x + offset1.x, transform.position.y + offset1.y, transform.position.z + offset1.z), transform.rotation);
+        playSpellSFX?.Invoke(activeRune);
     }
 
     void Attack()
@@ -124,6 +128,8 @@ public class Spellcasting : MonoBehaviour
         attackParticles.Play();
 
        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+
+        playMeleeSFX?.Invoke();
 
         foreach(Collider2D enemy in hitEnemies)
         {
