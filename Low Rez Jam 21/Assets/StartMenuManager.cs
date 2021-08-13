@@ -8,12 +8,14 @@ public class StartMenuManager : MonoBehaviour
     public GameObject Main;
     public GameObject Credits;
     public GameObject Credits2;
+    public GameObject Controls;
     
     void Start()
     {
         Main.SetActive(true);
         Credits.SetActive(false);
         Credits2.SetActive(false);
+        Controls.SetActive(false);
     }
 
     // Start is called before the first frame update
