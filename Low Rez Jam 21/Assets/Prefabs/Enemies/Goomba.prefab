@@ -4877,7 +4877,7 @@ GameObject:
   - component: {fileID: 2592242003099193144}
   - component: {fileID: 2592242003099193143}
   - component: {fileID: 2592242003099193142}
-  - component: {fileID: 2592242003099193147}
+  - component: {fileID: -4877299564560546096}
   m_Layer: 7
   m_Name: Goomba
   m_TagString: Enemy
@@ -4987,7 +4987,7 @@ MonoBehaviour:
   isBoss: 0
   spriteRend: {fileID: 2592242004823186822}
   deathParticles: {fileID: 2592242002933402773}
---- !u!114 &2592242003099193147
+--- !u!114 &-4877299564560546096
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4999,6 +4999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34ca3568f2e72b419c3117feba3e77f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  knockbackForce: 3
 --- !u!1 &2592242004009080896
 GameObject:
   m_ObjectHideFlags: 0
@@ -9877,7 +9878,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 8
   m_Sprite: {fileID: -6827069021969225880, guid: c7e8f9301fce5d348a02ede19ab98a91, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

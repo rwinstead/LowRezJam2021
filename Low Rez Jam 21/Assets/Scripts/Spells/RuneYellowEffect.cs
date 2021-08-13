@@ -4,25 +4,22 @@ using UnityEngine;
 
 public class RuneYellowEffect : MonoBehaviour
 {
-    public CircleCollider2D col;
 
     public Transform[] lightningBolts = new Transform[4];
 
-    int spot1;
-    int spot2;
+    int spotToDestroy;
 
     public void ShockEnemies()
     {
-        spot1 = -1;
-        spot2 = -1;
-        while (spot1 == spot2)
-        {
-            spot1 = Random.Range(0, 4);
-            spot2 = Random.Range(0, 4);
-        }
 
-        lightningBolts[spot1].gameObject.SetActive(true);
-        lightningBolts[spot2].gameObject.SetActive(true);
+        spotToDestroy = Random.Range(0, 4);
+
+        lightningBolts[0].gameObject.SetActive(true);
+        lightningBolts[1].gameObject.SetActive(true);
+        lightningBolts[2].gameObject.SetActive(true);
+        lightningBolts[3].gameObject.SetActive(true);
+
+        lightningBolts[spotToDestroy].gameObject.SetActive(false);
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
