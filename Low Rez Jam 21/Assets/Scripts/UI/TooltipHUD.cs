@@ -10,6 +10,7 @@ public class TooltipHUD : MonoBehaviour
     public GameObject player;
     
     private Text TooltipText;
+    private Color baseColor;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +18,7 @@ public class TooltipHUD : MonoBehaviour
         ChestOpenTrigger.chestPlayerTooltip += chestPlayerTooltipHUD;
         TooltipTrigger.TooltipTriggerAction += TooltipTriggerHUD;
         StartCoroutine(FadeTextToFullAlpha(2f, TooltipText, "WASD To Move\nSpace to Jump"));
+        baseColor = TooltipText.color;
 
     }
 
@@ -75,6 +77,12 @@ public class TooltipHUD : MonoBehaviour
         while (i.color.a < 1.0f)
         {
             i.color = new Color(i.color.r, i.color.g, i.color.b, i.color.a + (Time.deltaTime / t));
+            yield return null;
+        }
+        yield return new WaitForSeconds(10);
+        while (i.color.a > 0.0f)
+        {
+            i.color = new Color(i.color.r, i.color.g, i.color.b, i.color.a - (Time.deltaTime / t));
             yield return null;
         }
     }

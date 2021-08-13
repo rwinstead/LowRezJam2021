@@ -27,8 +27,7 @@ public class Checkpoint : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Debug.Log("Trigger animation");
-            
+            checkpointAnim.SetTrigger("checkpoint_reached");
         }
     }
 
@@ -41,7 +40,7 @@ public class Checkpoint : MonoBehaviour
         }
         if (triggeredID == CheckpointID && hasTriggered == false)
         {
-            checkpointAnim.SetTrigger("checkpoint_reached");
+            
             playCheckpointSFX?.Invoke();
             hasTriggered = true;
         }

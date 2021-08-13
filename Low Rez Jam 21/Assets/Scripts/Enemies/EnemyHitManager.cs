@@ -10,14 +10,18 @@ public class EnemyHitManager : MonoBehaviour
     public int currentHealth;
 
     public bool isFrozen = false;
+    public bool isBoss = false;
 
     public SpriteRenderer spriteRend;
     public ParticleSystem deathParticles;
+
+    public static Action<float> bossHealthChange;
 
     private void Start()
     {
 
         currentHealth = maxHealth;
+        Health.playerRespawn += resetEnemyHealth;
     }
 
     private void Update()
@@ -32,12 +36,17 @@ public class EnemyHitManager : MonoBehaviour
     {
         currentHealth -= dmg;
 
-        if(currentHealth <= 0)
+        if (currentHealth <= 0)
         {
-           StartCoroutine("Die");
+            StartCoroutine("Die");
         }
 
         StartCoroutine("FlashRed");
+
+        if (isBoss)
+        {
+            bossHealthChange?.Invoke((float)currentHealth / (float)maxHealth);
+        }
 
     }
 
@@ -93,5 +102,10 @@ public class EnemyHitManager : MonoBehaviour
         spriteRend.color = new Color(0.992f, 0.050f, 0.211f, 1);
         yield return new WaitForSeconds(.075f);
         spriteRend.color = currColor;
+    }
+
+    void resetEnemyHealth()
+    {
+        currentHealth = maxHealth;
     }
 }

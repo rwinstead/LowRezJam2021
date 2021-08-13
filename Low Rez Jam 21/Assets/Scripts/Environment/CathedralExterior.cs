@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,7 +19,9 @@ public class CathedralExterior : MonoBehaviour
 
     bool canEnter = false;
 
-    Transform player;
+    public static Action bossArenaTeleport;
+
+    private Transform player;
 
     void Start()
     {
@@ -33,7 +36,11 @@ public class CathedralExterior : MonoBehaviour
     private void Update()
     {
         if (Input.GetKeyDown("f") && canEnter)
+        {
+            bossArenaTeleport?.Invoke();
             player.position = insideCathedral.position;
+        }
+
     }
 
     private void OnTriggerStay2D(Collider2D collision)

@@ -8,7 +8,6 @@ public class AudioManager : MonoBehaviour
     public AudioSource backgroundTrack;
     public AudioSource SFXTrack;
 
-    public AudioClip menuLoop;
     public AudioClip mainBGLoop;
     public AudioClip bossBGLoop;
     public AudioClip creditsLoop;
@@ -38,6 +37,8 @@ public class AudioManager : MonoBehaviour
 
         Spellcasting.playMeleeSFX += playMeleeSFXHandler;
         Spellcasting.playSpellSFX += playSpellSFXHandler;
+
+        CathedralExterior.bossArenaTeleport += playBossMusicHandler;
 
     }
 
@@ -86,6 +87,12 @@ public class AudioManager : MonoBehaviour
     void playUnlockRuneSFXHandler(int runeID)
     {
         SFXTrack.PlayOneShot(unlockRuneSFX, 0.5f);
+    }
+
+    void playBossMusicHandler()
+    {
+        backgroundTrack.clip = bossBGLoop;
+        backgroundTrack.Play();
     }
 
 }

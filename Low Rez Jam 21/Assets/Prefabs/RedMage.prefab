@@ -4974,6 +4974,7 @@ GameObject:
   - component: {fileID: 4306503415744537848}
   - component: {fileID: 4306503415744537849}
   - component: {fileID: 8823214661722144964}
+  - component: {fileID: 1554716092}
   m_Layer: 11
   m_Name: RedMage
   m_TagString: Player
@@ -5273,7 +5274,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ad9016364324464ba03b1d4ea55298b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 3
+  maxHealth: 6
   currentHealth: 0
   invincibleTime: 1
   lastTimeDamaged: -50
+--- !u!114 &1554716092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4306503415744537798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 427caeaa35275b641998531b1ba9c8b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialSpawn: {fileID: 0}
+  activeSpawn: {fileID: 0}
+  player: {fileID: 4306503415744537798}
