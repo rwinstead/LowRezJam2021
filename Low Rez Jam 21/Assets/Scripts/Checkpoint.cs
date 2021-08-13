@@ -17,17 +17,24 @@ public class Checkpoint : MonoBehaviour
         Spawn.updateCheckpoint += updateCheckpointHandler;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDestroy()
     {
-        
+        Spawn.updateCheckpoint -= updateCheckpointHandler;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.CompareTag("Player"))
         {
             checkpointAnim.SetTrigger("checkpoint_reached");
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            checkpointAnim.ResetTrigger("checkpoint_reached");
         }
     }
 
@@ -35,8 +42,12 @@ public class Checkpoint : MonoBehaviour
     {
         if(triggeredID != CheckpointID)
         {
+            if (hasTriggered)
+            {
+                checkpointAnim.SetTrigger("checkpoint_reset");
+            }
             hasTriggered = false;
-            checkpointAnim.SetTrigger("checkpoint_reset");
+            
         }
         if (triggeredID == CheckpointID && hasTriggered == false)
         {

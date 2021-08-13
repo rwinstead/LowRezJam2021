@@ -12,6 +12,8 @@ public class Spawn : MonoBehaviour
 
     public static Action<int> updateCheckpoint;
 
+    public bool enteredCheckpoint = false;
+
     
 
     // Start is called before the first frame update
@@ -35,10 +37,19 @@ public class Spawn : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Checkpoint"))
         {
+            enteredCheckpoint = true;
             activeSpawn = collision.gameObject.transform;
             Debug.Log("Updating Respawn Point");
             updateCheckpoint?.Invoke(collision.gameObject.GetComponent<Checkpoint>().CheckpointID);
 
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Checkpoint"))
+        {
+            enteredCheckpoint = false;
         }
     }
 

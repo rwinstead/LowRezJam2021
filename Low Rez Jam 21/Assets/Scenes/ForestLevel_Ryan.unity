@@ -17721,10 +17721,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1406173899196591554, guid: ace125a35b46db94b998e3cde467639d, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -7
-      objectReference: {fileID: 0}
     - target: {fileID: 2267706061896340024, guid: ace125a35b46db94b998e3cde467639d, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -17737,10 +17733,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1257148509}
-    - target: {fileID: 4239884981560862369, guid: ace125a35b46db94b998e3cde467639d, type: 3}
-      propertyPath: m_RenderMode
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4239884981560862370, guid: ace125a35b46db94b998e3cde467639d, type: 3}
       propertyPath: Player
       value: 
@@ -17836,14 +17828,6 @@ PrefabInstance:
     - target: {fileID: 4239884981560862381, guid: ace125a35b46db94b998e3cde467639d, type: 3}
       propertyPath: m_Name
       value: HUD
-      objectReference: {fileID: 0}
-    - target: {fileID: 4429586185078564029, guid: ace125a35b46db94b998e3cde467639d, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6758407095104293307, guid: ace125a35b46db94b998e3cde467639d, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ace125a35b46db94b998e3cde467639d, type: 3}

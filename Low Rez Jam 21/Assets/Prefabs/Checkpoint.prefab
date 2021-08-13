@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 8047120108528410632}
   - component: {fileID: 8047120108528410633}
   - component: {fileID: 8047120108528410630}
-  - component: {fileID: 8047120108528410631}
   - component: {fileID: 8047120108528410634}
   m_Layer: 0
   m_Name: Checkpoint
@@ -119,35 +118,19 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.040905476, y: -1.4828408}
+  m_Offset: {x: -0.040905476, y: -0.52302086}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.625, y: 5}
+    oldSize: {x: 3.625, y: 5.375}
     newSize: {x: 3.625, y: 5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.2159414, y: 2.0343184}
+  m_Size: {x: 3.2159414, y: 3.9539583}
   m_EdgeRadius: 0
---- !u!70 &8047120108528410631
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8047120108528410628}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.06135893, y: -0.05113244}
-  m_Size: {x: 1.7842321, y: 2.6479077}
-  m_Direction: 0
 --- !u!114 &8047120108528410634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,3 +145,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   checkpointAnim: {fileID: 8047120108528410633}
   hasTriggered: 0
+  CheckpointID: 2
