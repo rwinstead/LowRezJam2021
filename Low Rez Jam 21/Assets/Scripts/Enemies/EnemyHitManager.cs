@@ -16,6 +16,7 @@ public class EnemyHitManager : MonoBehaviour
     public ParticleSystem deathParticles;
 
     public static Action<float> bossHealthChange;
+    public static Action bossDeath;
 
     bool dead = false;
 
@@ -42,6 +43,11 @@ public class EnemyHitManager : MonoBehaviour
         {
             StartCoroutine("Die");
             dead = true;
+
+            if (isBoss)
+            {
+                bossDeath?.Invoke();
+            }
         }
 
         StartCoroutine("FlashRed");

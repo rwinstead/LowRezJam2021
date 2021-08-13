@@ -53,6 +53,45 @@ TextureImporter:
   - first:
       213: -945362309890665407
     second: BossHealhBarBorder
+  - first:
+      213: -2909791023853815867
+    second: MenuButton_Return
+  - first:
+      213: -4406645641826351356
+    second: VictoryScreen
+  - first:
+      213: 372645477307603635
+    second: MiniBoss_walking-1
+  - first:
+      213: 1013252677881775728
+    second: Miniboss_walking-2
+  - first:
+      213: 1178606480042161639
+    second: Miniboss_attack-1
+  - first:
+      213: 6809877508718997971
+    second: Miniboss_attack-2
+  - first:
+      213: 6586558147691505972
+    second: Miniboss_attack-3
+  - first:
+      213: 5113612461987965024
+    second: Miniboss_projectile-cast
+  - first:
+      213: -1396808867343386401
+    second: Miniboss_projectile-1
+  - first:
+      213: -9033978948256475254
+    second: Miniboss_projectile-2
+  - first:
+      213: -3404715834873057658
+    second: Miniboss_projectile-3
+  - first:
+      213: -5249341411831156259
+    second: Miniboss_projectile-4
+  - first:
+      213: 4117157291404912045
+    second: Miniboss_projectile-5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -498,7 +537,7 @@ TextureImporter:
         width: 46
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -506,6 +545,279 @@ TextureImporter:
       bones: []
       spriteID: 1449ce6ecf561e2f0800000000000000
       internalID: -945362309890665407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuButton_Return
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 405
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7b2940b785e97d0800000000000000
+      internalID: -2909791023853815867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictoryScreen
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 439
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407caebd22378d2c0800000000000000
+      internalID: -4406645641826351356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniBoss_walking-1
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 669
+        width: 22
+        height: 24
+      alignment: 9
+      pivot: {x: 0.38659668, y: 0.5189006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba53165617eb2500800000000000000
+      internalID: 372645477307603635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss_walking-2
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 669
+        width: 22
+        height: 24
+      alignment: 9
+      pivot: {x: 0.43427622, y: 0.52008057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0764bdc21fbcf0e00800000000000000
+      internalID: 1013252677881775728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss_attack-1
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 641
+        width: 21
+        height: 25
+      alignment: 9
+      pivot: {x: 0.40758696, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5f2ec59504b5010800000000000000
+      internalID: 1178606480042161639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss_attack-2
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 640
+        width: 31
+        height: 26
+      alignment: 9
+      pivot: {x: 0.27367377, y: 0.47703436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d13e1f838b818e50800000000000000
+      internalID: 6809877508718997971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss_attack-3
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 642
+        width: 37
+        height: 24
+      alignment: 9
+      pivot: {x: 0.28229585, y: 0.47592416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4396b9dfcb7286b50800000000000000
+      internalID: 6586558147691505972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss_projectile-cast
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 615
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068adcbe07337f640800000000000000
+      internalID: 5113612461987965024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss_projectile-1
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 627
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8b1ea5cb98d9ce0800000000000000
+      internalID: -1396808867343386401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss_projectile-2
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 627
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87d0d8b20cd0a280800000000000000
+      internalID: -9033978948256475254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss_projectile-3
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 627
+        width: 5
+        height: 3
+      alignment: 9
+      pivot: {x: 0.60397947, y: 0.32666016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e6e35bcf400c0d0800000000000000
+      internalID: -3404715834873057658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss_projectile-4
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 626
+        width: 5
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5119873, y: 0.35714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd17e035cc79627b0800000000000000
+      internalID: -5249341411831156259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miniboss_projectile-5
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 624
+        width: 11
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5072687, y: 0.40363657}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5699e2eb4132930800000000000000
+      internalID: 4117157291404912045
       vertices: []
       indices: 
       edges: []
