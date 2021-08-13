@@ -47,6 +47,24 @@ TextureImporter:
   - first:
       213: -8507312664234574203
     second: Orb_Holder_Empty4
+  - first:
+      213: 333559143812091349
+    second: Goomba_Walk1
+  - first:
+      213: -7045113089191056241
+    second: Goomba_Idle
+  - first:
+      213: -914422262216556189
+    second: Goomba_Walk2
+  - first:
+      213: 1448644498300554613
+    second: GoombaRed_Walk1
+  - first:
+      213: -6617943654787910756
+    second: GoombaRed_Walk2
+  - first:
+      213: -6827069021969225880
+    second: GoombaRed_Idle
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -458,6 +476,132 @@ TextureImporter:
       bones: []
       spriteID: 58ebd1f9434ffe980800000000000000
       internalID: -8507312664234574203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goomba_Walk1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 791
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddc086264a01a400800000000000000
+      internalID: 333559143812091349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goomba_Idle
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 777
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cef44d8faba3e90800000000000000
+      internalID: -7045113089191056241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goomba_Walk2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 791
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3618fdd1cc15f43f0800000000000000
+      internalID: -914422262216556189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoombaRed_Walk1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 777
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d4707fe7e9a1410800000000000000
+      internalID: 1448644498300554613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoombaRed_Walk2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 777
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93f0d03f475824a0800000000000000
+      internalID: -6617943654787910756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoombaRed_Idle
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 777
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867637855e06141a0800000000000000
+      internalID: -6827069021969225880
       vertices: []
       indices: 
       edges: []

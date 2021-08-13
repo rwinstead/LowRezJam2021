@@ -17,6 +17,8 @@ public class EnemyHitManager : MonoBehaviour
 
     public static Action<float> bossHealthChange;
 
+    bool dead = false;
+
     private void Start()
     {
 
@@ -36,9 +38,10 @@ public class EnemyHitManager : MonoBehaviour
     {
         currentHealth -= dmg;
 
-        if (currentHealth <= 0)
+        if (currentHealth <= 0 && !dead)
         {
             StartCoroutine("Die");
+            dead = true;
         }
 
         StartCoroutine("FlashRed");
@@ -90,6 +93,8 @@ public class EnemyHitManager : MonoBehaviour
 
     public IEnumerator Die()
     {
+        if (dead) yield break;
+        Debug.Log("I'm dead");
         deathParticles.Play();
         spriteRend.color = new Color(0,0,0, 1);
         yield return new WaitForSeconds(.25f);
