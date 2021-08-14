@@ -120,6 +120,7 @@ public class EnemyHitManager : MonoBehaviour
         spriteRend.color = new Color(0.992f, 0.050f, 0.211f, 1);
         yield return new WaitForSeconds(.075f);
         spriteRend.color = currColor;
+        if (!isFrozen) spriteRend.color = new Color(1, 1, 1, 1);
     }
 
     void resetEnemyHealth()

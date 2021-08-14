@@ -25,9 +25,16 @@ public class PatrolAI : MonoBehaviour
 
     public Animator anim;
 
+    public float freezeTimer = 3f;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+    }
+
+    private void OnEnable()
+    {
+        canMove = true;
     }
 
     private void Update()
@@ -98,7 +105,7 @@ public class PatrolAI : MonoBehaviour
         frostParticles.SetActive(true);
         anim.speed = 0;
 
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(freezeTimer);
 
         anim.speed = 1;
         freezing = false;

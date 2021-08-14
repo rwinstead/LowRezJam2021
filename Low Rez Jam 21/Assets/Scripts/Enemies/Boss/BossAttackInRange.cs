@@ -35,6 +35,12 @@ public class BossAttackInRange : MonoBehaviour
         parent = transform.parent.gameObject;
     }
 
+    private void OnEnable()
+    {
+        canAttack = true;
+        canRangedAttack = true;
+    }
+
     private void Update()
     {
         if (Vector2.Distance(player.position, parent.transform.position) > 5.25f && patrolai.canMove && !patrolai.freezing && canRangedAttack)
