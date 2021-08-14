@@ -35,7 +35,7 @@ public class CathedralExterior : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown("f") && canEnter)
+        if (Input.GetButtonDown("Interact") && canEnter)
         {
             bossArenaTeleport?.Invoke();
             player.position = insideCathedral.position;

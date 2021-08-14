@@ -378,7 +378,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2820842202816123216, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
+  m_Sprite: {fileID: 819217207307216909, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -530,9 +530,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 096e0c3afb48cd4418e013bd47d1fd81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spellSlot1: {fileID: 5030026766765581815}
-  spellSlot2: {fileID: 4412755436818478030}
-  spellSlot3: {fileID: 4239884981298505154}
+  spellSlot1: {fileID: 4239884981298505154}
+  spellSlot2: {fileID: 5030026766765581815}
+  spellSlot3: {fileID: 4412755436818478030}
   blueActive: {fileID: 351239280654541960, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
   blueInactive: {fileID: 819217207307216909, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
   greenActive: {fileID: -4806480295005959394, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
@@ -1012,7 +1012,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 351239280654541960, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
+  m_Sprite: {fileID: -3323495240146968084, guid: aa7695e8a01714543a3b9f8ef1194a3e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

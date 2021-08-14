@@ -18,7 +18,7 @@ public class BossHealthBarHUD : MonoBehaviour
 
    void updateBossHealthBarHUD(float val)
     {
-        Debug.Log(val);
+        //Debug.Log(val);
         BossHealthBar.GetComponent<Slider>().value = val;
     }
 

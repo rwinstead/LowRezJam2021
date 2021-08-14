@@ -70,12 +70,12 @@ public class Spellcasting : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Tab))
+        if (Input.GetButtonDown("SwitchSpells"))
         {
             ChangeActiveSpell();
         }
 
-        if (Input.GetKeyDown("q") && movementC.m_Grounded && canCast && activeRune != 0)
+        if (Input.GetButtonDown("Spellcast") && movementC.m_Grounded && canCast && activeRune != 0)
         {
             CastActiveSpell();
         }
@@ -83,13 +83,13 @@ public class Spellcasting : MonoBehaviour
         anim.SetBool("Attacking", false);
         anim.SetBool("JumpAttack", false);
 
-        if (Input.GetKeyDown("e") && movementC.m_Grounded && canAttack)
+        if (Input.GetButtonDown("Melee") && movementC.m_Grounded && canAttack)
         {
             anim.SetBool("Attacking", true);
             Attack();
         }
 
-        if (Input.GetKeyDown("e") && !movementC.m_Grounded && canAttack)
+        if (Input.GetButtonDown("Melee") && !movementC.m_Grounded && canAttack)
         {
             anim.SetBool("JumpAttack", true);
             Attack();

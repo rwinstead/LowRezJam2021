@@ -24,13 +24,6 @@ public class Spawn : MonoBehaviour
         activeSpawn = initialSpawn;
     }
 
-    void Update()
-    {
-        if (Input.GetKeyDown("r"))
-        {
-            Respawn();
-        }
-    }
 
 
     private void OnTriggerEnter2D(Collider2D collision)

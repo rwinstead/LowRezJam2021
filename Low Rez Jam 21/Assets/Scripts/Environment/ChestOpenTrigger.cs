@@ -16,7 +16,7 @@ public class ChestOpenTrigger : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown("f") && playerInsideTrigger && !chestOpened)
+        if(Input.GetButtonDown("Interact") && playerInsideTrigger && !chestOpened)
         {
             anim.SetTrigger("OpenChest");
             chestOpened = true;

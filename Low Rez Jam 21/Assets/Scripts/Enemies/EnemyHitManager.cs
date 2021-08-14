@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
 public class EnemyHitManager : MonoBehaviour
 {
@@ -47,6 +48,7 @@ public class EnemyHitManager : MonoBehaviour
             if (isBoss)
             {
                 bossDeath?.Invoke();
+                SceneManager.LoadScene("Victory"); ;
             }
         }
 
