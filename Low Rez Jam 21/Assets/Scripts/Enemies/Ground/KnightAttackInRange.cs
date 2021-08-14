@@ -20,6 +20,8 @@ public class KnightAttackInRange : MonoBehaviour
 
     GameObject parent;
 
+    public float attackCooldown = 1.5f;
+
 
     public LayerMask playerLayer;
 
@@ -76,7 +78,7 @@ public class KnightAttackInRange : MonoBehaviour
     public IEnumerator PauseAttacking()
     {
         canAttack = false;
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(attackCooldown);
         canAttack = true;
     }
 
