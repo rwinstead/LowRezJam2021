@@ -41,6 +41,9 @@ TextureImporter:
   - first:
       213: 6067989105521392229
     second: Stalag_Grey1
+  - first:
+      213: -1309799833538538644
+    second: Underground_Column2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -402,7 +405,7 @@ TextureImporter:
         width: 14
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -410,6 +413,27 @@ TextureImporter:
       bones: []
       spriteID: 56afa8f11f3d53450800000000000000
       internalID: 6067989105521392229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_Column2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 158
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63d113bdf7a2dde0800000000000000
+      internalID: -1309799833538538644
       vertices: []
       indices: 
       edges: []

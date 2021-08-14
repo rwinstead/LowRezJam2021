@@ -5010,7 +5010,7 @@ GameObject:
   - component: {fileID: 2678108366316104406}
   - component: {fileID: 2678108366316104404}
   - component: {fileID: 2678108366316104405}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: BatDetectionRadius
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5186,6 +5186,7 @@ MonoBehaviour:
   maxHealth: 1
   currentHealth: 0
   isFrozen: 0
+  isBoss: 0
   spriteRend: {fileID: 2678108365528133450}
   deathParticles: {fileID: 785722156}
 --- !u!58 &2678108366439011568
