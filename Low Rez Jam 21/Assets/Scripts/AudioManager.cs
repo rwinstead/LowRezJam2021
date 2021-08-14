@@ -10,7 +10,6 @@ public class AudioManager : MonoBehaviour
 
     public AudioClip mainBGLoop;
     public AudioClip bossBGLoop;
-    public AudioClip creditsLoop;
 
     public AudioClip checkpointSFX;
     public AudioClip unlockRuneSFX;
@@ -50,7 +49,7 @@ public class AudioManager : MonoBehaviour
 
     void playCheckpointSFXHandler()
     {
-        SFXTrack.PlayOneShot(checkpointSFX, 0.5f);
+        SFXTrack.PlayOneShot(checkpointSFX, 0.23f);
     }
 
     void playTakeDamageSFXHandler()
@@ -86,12 +85,13 @@ public class AudioManager : MonoBehaviour
 
     void playUnlockRuneSFXHandler(int runeID)
     {
-        SFXTrack.PlayOneShot(unlockRuneSFX, 0.5f);
+        SFXTrack.PlayOneShot(unlockRuneSFX, 0.57f);
     }
 
     void playBossMusicHandler()
     {
         backgroundTrack.clip = bossBGLoop;
+        backgroundTrack.volume = 0.3f;
         backgroundTrack.Play();
     }
 

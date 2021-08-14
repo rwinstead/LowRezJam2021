@@ -21,7 +21,7 @@ public class StartMenuManager : MonoBehaviour
     // Start is called before the first frame update
     public void PressStartToPlay()
     {
-        SceneManager.LoadScene("ForestLevel_Main");
+        SceneManager.LoadScene("Forest");
     }
 
     public void QuitGame()

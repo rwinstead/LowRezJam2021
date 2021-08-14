@@ -170,6 +170,39 @@ TextureImporter:
   - first:
       213: -4054907458781784121
     second: Bkg_Tree2
+  - first:
+      213: 3576111019135261758
+    second: BossVine-1
+  - first:
+      213: 7985223236650013636
+    second: BossVine-2
+  - first:
+      213: 6745266012924355796
+    second: Platform_trellis_purple-full
+  - first:
+      213: -7849145675872860336
+    second: Platform-plain-trellis-1
+  - first:
+      213: -6705085032627802018
+    second: Platform_brokentrellis-purple-left
+  - first:
+      213: -4163278773092649249
+    second: Platform-brokentrellis-purple-right
+  - first:
+      213: -5940767294379684855
+    second: platform_purplevines
+  - first:
+      213: -5620496056953086085
+    second: Platform-bluevines
+  - first:
+      213: 7675618904711676834
+    second: Boss-platform-4
+  - first:
+      213: -466197632899030036
+    second: Boss-platform-2
+  - first:
+      213: 7279437371490349794
+    second: Boss-platform-1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1413,7 +1446,7 @@ TextureImporter:
         width: 11
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1434,7 +1467,7 @@ TextureImporter:
         width: 26
         height: 51
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1442,6 +1475,237 @@ TextureImporter:
       bones: []
       spriteID: 7c7da3a66231ab7c0800000000000000
       internalID: -4054907458781784121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossVine-1
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 377
+        width: 28
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cdaec5606e0a130800000000000000
+      internalID: 3576111019135261758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossVine-2
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 376
+        width: 29
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c318b8e93631de60800000000000000
+      internalID: 7985223236650013636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_trellis_purple-full
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 545
+        width: 90
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d42fd763bffb9d50800000000000000
+      internalID: 6745266012924355796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-plain-trellis-1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 609
+        width: 90
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0570e47289b321390800000000000000
+      internalID: -7849145675872860336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_brokentrellis-purple-left
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 523
+        width: 43
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e507e6910b0c2f2a0800000000000000
+      internalID: -6705085032627802018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-brokentrellis-purple-right
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 525
+        width: 56
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd673ec83001936c0800000000000000
+      internalID: -4163278773092649249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_purplevines
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 481
+        width: 103
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c8d3d0f972e8da0800000000000000
+      internalID: -5940767294379684855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-bluevines
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 433
+        width: 103
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fd3d76d9cfff1b0800000000000000
+      internalID: -5620496056953086085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss-platform-4
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 186
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3cc960ab6458a60800000000000000
+      internalID: 7675618904711676834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss-platform-2
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 198
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3ecef09bbb789f0800000000000000
+      internalID: -466197632899030036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss-platform-1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 198
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2b264a8b1c50560800000000000000
+      internalID: 7279437371490349794
       vertices: []
       indices: 
       edges: []

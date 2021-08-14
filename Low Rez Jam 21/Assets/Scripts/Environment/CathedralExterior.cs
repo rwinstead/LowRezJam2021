@@ -39,6 +39,7 @@ public class CathedralExterior : MonoBehaviour
         {
             bossArenaTeleport?.Invoke();
             player.position = insideCathedral.position;
+            canEnter = false;
         }
 
     }
@@ -49,6 +50,14 @@ public class CathedralExterior : MonoBehaviour
         {
             player = collision.gameObject.transform;
             canEnter = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player") && blueOrb && yellowOrb && greenOrb)
+        {
+            canEnter = false;
         }
     }
 

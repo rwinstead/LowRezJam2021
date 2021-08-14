@@ -89,6 +89,11 @@ public class EnemyHitManager : MonoBehaviour
         currentHealth -= 1;
         yield return new WaitForSeconds(.25f);
         spriteRend.color = currColor;
+        
+        if (isBoss)
+        {
+            bossHealthChange?.Invoke((float)currentHealth / (float)maxHealth);
+        }
     }
 
     public IEnumerator StopPoison()
