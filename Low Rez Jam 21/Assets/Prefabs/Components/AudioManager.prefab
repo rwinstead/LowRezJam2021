@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6935679870616491207}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -52.29049, y: 9.925047, z: 1.7454338}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -240,12 +240,12 @@ MonoBehaviour:
   backgroundTrack: {fileID: 6935679870616491203}
   SFXTrack: {fileID: 6935679870616491200}
   mainBGLoop: {fileID: 8300000, guid: 6c03cf84d8e02414e911f17b8994e99d, type: 3}
-  bossBGLoop: {fileID: 8300000, guid: a8d47d14c2342fd4a962ffe30cc994e2, type: 3}
+  bossBGLoop: {fileID: 8300000, guid: 9d2a3967e41b5ac4aa5c6ebe3d526023, type: 3}
   checkpointSFX: {fileID: 8300000, guid: 2cc918c1251d134409a503afe5005c4c, type: 3}
-  unlockRuneSFX: {fileID: 8300000, guid: 9c108a6820b858648a59d2e380e08a91, type: 3}
-  playerDeathSFX: {fileID: 8300000, guid: 8edf1c61415adf54eab40233f0b4531f, type: 3}
+  unlockRuneSFX: {fileID: 8300000, guid: 38859337f54a41b46b78e20453db5af6, type: 3}
+  playerDeathSFX: {fileID: 8300000, guid: 7f4ca579f6a26d14b8346229f47a456c, type: 3}
   meleeSFX: {fileID: 8300000, guid: 262b3aa4593635a40948b668256c6c14, type: 3}
-  takeDamageSFX: {fileID: 8300000, guid: d400577113fb9094184218f35293c9b1, type: 3}
+  takeDamageSFX: {fileID: 8300000, guid: 0931181696c7aca4f85f9707c344b5eb, type: 3}
   blueSpellSFX: {fileID: 8300000, guid: 14ad85eda9b617242adf72c81fa2905a, type: 3}
   greenSpellSFX: {fileID: 8300000, guid: 60c050ea04568414785f12a12c4dc26d, type: 3}
-  yellowSpellSFX: {fileID: 8300000, guid: 5e7840614fb516b4eac36bc4c2bba809, type: 3}
+  yellowSpellSFX: {fileID: 8300000, guid: a56e097a437dbef4f8a37304847a2f47, type: 3}
