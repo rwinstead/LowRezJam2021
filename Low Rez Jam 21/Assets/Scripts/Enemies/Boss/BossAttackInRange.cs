@@ -37,7 +37,7 @@ public class BossAttackInRange : MonoBehaviour
 
     private void Update()
     {
-        if (Vector2.Distance(player.position, parent.transform.position) > 7.25f && patrolai.canMove && !patrolai.freezing && canRangedAttack)
+        if (Vector2.Distance(player.position, parent.transform.position) > 5.25f && patrolai.canMove && !patrolai.freezing && canRangedAttack)
         {
             anim.SetTrigger("RangedAttack");
             StartCoroutine("PauseWalking");

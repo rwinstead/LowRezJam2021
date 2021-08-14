@@ -53,6 +53,7 @@ public class Spellcasting : MonoBehaviour
         SpellPrefabs[1] = spellPrefab2;
         SpellPrefabs[2] = spellPrefab3;
 
+
     }
 
     private void OnDestroy()
@@ -161,7 +162,7 @@ public class Spellcasting : MonoBehaviour
         canAttack = true;
     }
 
-    void unlockRuneCasting(int RuneID)
+    public void unlockRuneCasting(int RuneID)
     {
         if (RuneID == -1)
         {
