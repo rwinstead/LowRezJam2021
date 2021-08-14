@@ -92,6 +92,33 @@ TextureImporter:
   - first:
       213: 4117157291404912045
     second: Miniboss_projectile-5
+  - first:
+      213: 3865075957825372918
+    second: Platform_Lattice_Brown_Broken2
+  - first:
+      213: 6095154293517068176
+    second: Platform_Lattice_Purple
+  - first:
+      213: 8344036511721735688
+    second: Platform_Lattice_Purple_Broken1
+  - first:
+      213: 2524531861786085980
+    second: Platform_Lattice_Purple_Broken2
+  - first:
+      213: -7121591770954658597
+    second: Platform_Vines_Purple1
+  - first:
+      213: 6787213142290495431
+    second: Platform_Vines_Purple2
+  - first:
+      213: 3073549567340553363
+    second: Platform_White
+  - first:
+      213: -4281347162561262157
+    second: Platform_Broken1
+  - first:
+      213: -2450209568364780007
+    second: Platform_Broken2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -818,6 +845,237 @@ TextureImporter:
       bones: []
       spriteID: da5699e2eb4132930800000000000000
       internalID: 4117157291404912045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Lattice_Brown
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 628
+        width: 41
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da35995eb1fc1b70800000000000000
+      internalID: 8871231165862066898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Lattice_Brown_Broken1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 587
+        width: 43
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b252e1a36349f86c0800000000000000
+      internalID: -4138926571905997525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Lattice_Brown_Broken2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 589
+        width: 56
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f285180b1283a530800000000000000
+      internalID: 3865075957825372918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Lattice_Purple
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 564
+        width: 41
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09728445986569450800000000000000
+      internalID: 6095154293517068176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Lattice_Purple_Broken1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 523
+        width: 43
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8064012bff8fbc370800000000000000
+      internalID: 8344036511721735688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Lattice_Purple_Broken2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 525
+        width: 56
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a4aed4a50f80320800000000000000
+      internalID: 2524531861786085980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Vines_Purple1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 480
+        width: 103
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc07e024060b2d90800000000000000
+      internalID: -7121591770954658597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Vines_Purple2
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 458
+        width: 102
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c776198466013e50800000000000000
+      internalID: 6787213142290495431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_White
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 396
+        width: 102
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394a3e01c0177aa20800000000000000
+      internalID: 3073549567340553363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Broken1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 476
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdc86f60799594c0800000000000000
+      internalID: -4281347162561262157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Broken2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 476
+        width: 65
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916aa5c116b1ffdd0800000000000000
+      internalID: -2450209568364780007
       vertices: []
       indices: 
       edges: []
