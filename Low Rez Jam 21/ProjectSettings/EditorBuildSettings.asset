@@ -6,15 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/Menu_Josh.unity
+    path: Assets/Scenes/Archive/Menu_Josh.unity
     guid: f64042b7ce0883e4eb4e754a4d6672a6
   - enabled: 1
     path: Assets/Scenes/Menu_Ryan.unity
     guid: f9bd3a79fab031242a27fb78a2549b1f
   - enabled: 1
-    path: Assets/Scenes/ForestLevel_Ryan.unity
+    path: Assets/Scenes/Archive/ForestLevel_Ryan.unity
     guid: cb78b1fa47730064fa79006fa46d6f54
   - enabled: 0
-    path: Assets/Scenes/ForestLevel_Main.unity
+    path: Assets/Scenes/Archive/ForestLevel_Main.unity
     guid: 022dd0eb4c701d54c9c4a971fe6acdd7
   m_configObjects: {}
