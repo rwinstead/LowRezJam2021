@@ -48,7 +48,6 @@ public class EnemyHitManager : MonoBehaviour
             if (isBoss)
             {
                 bossDeath?.Invoke();
-                SceneManager.LoadScene("Victory"); ;
             }
         }
 

@@ -49,7 +49,7 @@ public class AudioManager : MonoBehaviour
 
     void playCheckpointSFXHandler()
     {
-        SFXTrack.PlayOneShot(checkpointSFX, 0.23f);
+        SFXTrack.PlayOneShot(checkpointSFX, 0.45f);
     }
 
     void playTakeDamageSFXHandler()
