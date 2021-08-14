@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class BossDeath : MonoBehaviour
 {
 
-	public int waitSecondsOnDeath = 3;
+	public float waitSecondsOnDeath = 1.5f;
 
     // Start is called before the first frame update
     void Start()
